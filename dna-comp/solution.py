@@ -99,7 +99,6 @@ def my_algorithm(instance: ProblemInstance) -> List[Dict[str, Any]]:
                         },
                     )
 
-    # reconstruim les operacions des del final fins al principi.
     operations = []
     pos = n
     while pos > 0:

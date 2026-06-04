@@ -170,7 +170,6 @@ def my_algorithm(instance: ProblemInstance) -> Set[str]:
                 break
             selected |= best_group
 
-        # fem una segona passada per afegir grups que millorin la puntuacio.
         changed = True
         while changed:
             changed = False
