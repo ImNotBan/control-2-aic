@@ -1,0 +1,17 @@
+{
+  "id": "dna-comp",
+  "name": "DNA Compression Problem",
+  "limits": {
+    "cpu_seconds": 60,
+    "memory_mb": 2048,
+    "cpu_threshold_pctg": 100
+  },
+  "public_instance_sets": [
+    "0-easy",
+    "1-medium",
+    "2-hard"
+  ],
+  "solutions": [
+    "solutions/alg1.bin"
+  ]
+}

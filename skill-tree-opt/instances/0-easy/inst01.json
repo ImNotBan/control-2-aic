@@ -1,0 +1,189 @@
+{
+    "budget": 20,
+    "scoring": {
+        "damage": 1.44,
+        "survivability": 2.16,
+        "mobility": 1.17
+    },
+    "skills": {
+        "Frost Dance 0": {
+            "cost": 3,
+            "attributes": {
+                "damage": 8,
+                "survivability": 11
+            },
+            "requires": []
+        },
+        "Spirit Aura 1": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 5,
+                "damage": 6
+            },
+            "requires": [
+                "Frost Dance 0"
+            ]
+        },
+        "Venom Focus 2": {
+            "cost": 6,
+            "attributes": {
+                "damage": -2,
+                "survivability": 7,
+                "mobility": 6
+            },
+            "requires": [
+                "Frost Dance 0"
+            ]
+        },
+        "Blade Aura 3": {
+            "cost": 4,
+            "attributes": {
+                "survivability": 7
+            },
+            "requires": [
+                "Frost Dance 0"
+            ]
+        },
+        "Storm Mastery 4": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 2,
+                "damage": -3
+            },
+            "requires": [
+                "Blade Aura 3"
+            ]
+        },
+        "Storm Strike 5": {
+            "cost": 5,
+            "attributes": {
+                "mobility": 8
+            },
+            "requires": [
+                "Venom Focus 2"
+            ]
+        },
+        "Spirit Aura 6": {
+            "cost": 5,
+            "attributes": {
+                "survivability": 3,
+                "damage": 3
+            },
+            "requires": [
+                "Blade Aura 3"
+            ]
+        },
+        "Arcane Barrier 7": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 11,
+                "mobility": 6
+            },
+            "requires": [
+                "Spirit Aura 1"
+            ]
+        },
+        "Iron Strike 8": {
+            "cost": 3,
+            "attributes": {
+                "damage": 6,
+                "mobility": -1,
+                "survivability": 7
+            },
+            "requires": [
+                "Spirit Aura 6"
+            ]
+        },
+        "Storm Burst 9": {
+            "cost": 3,
+            "attributes": {
+                "mobility": 2,
+                "survivability": 10,
+                "damage": 6
+            },
+            "requires": [
+                "Spirit Aura 6"
+            ]
+        },
+        "Storm Aura 10": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 9,
+                "mobility": 10
+            },
+            "requires": [
+                "Iron Strike 8"
+            ]
+        },
+        "Flame Strike 11": {
+            "cost": 1,
+            "attributes": {
+                "damage": -1
+            },
+            "requires": [
+                "Spirit Aura 6"
+            ]
+        },
+        "Storm Strike 12": {
+            "cost": 6,
+            "attributes": {
+                "damage": 5
+            },
+            "requires": [
+                "Storm Mastery 4"
+            ]
+        },
+        "Blood Barrier 13": {
+            "cost": 5,
+            "attributes": {
+                "damage": -1,
+                "mobility": 9,
+                "survivability": 5
+            },
+            "requires": []
+        },
+        "Iron Strike 14": {
+            "cost": 1,
+            "attributes": {
+                "survivability": -2,
+                "damage": -2,
+                "mobility": 4
+            },
+            "requires": [
+                "Storm Burst 9"
+            ]
+        }
+    },
+    "synergies": [
+        {
+            "skills": [
+                "Storm Strike 5",
+                "Storm Mastery 4"
+            ],
+            "bonus": {
+                "mobility": 16
+            }
+        },
+        {
+            "skills": [
+                "Iron Strike 14",
+                "Blade Aura 3"
+            ],
+            "bonus": {
+                "survivability": 19
+            }
+        },
+        {
+            "skills": [
+                "Storm Strike 12",
+                "Storm Strike 5",
+                "Storm Aura 10",
+                "Frost Dance 0"
+            ],
+            "bonus": {
+                "survivability": 13,
+                "mobility": 17
+            }
+        }
+    ]
+}

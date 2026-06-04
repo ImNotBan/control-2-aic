@@ -1,0 +1,7 @@
+{
+    "sequence": "GAGGTCCACTAACATACCAC",
+    "literal_cost": 3,
+    "copy_cost": 4,
+    "length_cost": 2,
+    "min_match_length": 4
+}

@@ -1,0 +1,193 @@
+{
+    "budget": 20,
+    "scoring": {
+        "damage": 3.41,
+        "survivability": 1.59,
+        "mobility": 0.79
+    },
+    "skills": {
+        "Iron Shield 0": {
+            "cost": 6,
+            "attributes": {
+                "damage": -2
+            },
+            "requires": []
+        },
+        "Arcane Shield 1": {
+            "cost": 3,
+            "attributes": {
+                "mobility": 2,
+                "survivability": -3,
+                "damage": 11
+            },
+            "requires": [
+                "Iron Shield 0"
+            ]
+        },
+        "Spirit Aura 2": {
+            "cost": 4,
+            "attributes": {
+                "damage": 5,
+                "mobility": -1
+            },
+            "requires": [
+                "Iron Shield 0"
+            ]
+        },
+        "Blade Mastery 3": {
+            "cost": 3,
+            "attributes": {
+                "damage": -3,
+                "mobility": 6
+            },
+            "requires": [
+                "Spirit Aura 2"
+            ]
+        },
+        "Flame Mastery 4": {
+            "cost": 5,
+            "attributes": {
+                "survivability": 2,
+                "damage": 4,
+                "mobility": 12
+            },
+            "requires": [
+                "Blade Mastery 3"
+            ]
+        },
+        "Blade Shield 5": {
+            "cost": 3,
+            "attributes": {
+                "mobility": 3
+            },
+            "requires": [
+                "Blade Mastery 3"
+            ]
+        },
+        "Arcane Rush 6": {
+            "cost": 2,
+            "attributes": {
+                "survivability": 6,
+                "mobility": 3,
+                "damage": 7
+            },
+            "requires": [
+                "Arcane Shield 1"
+            ]
+        },
+        "Storm Mastery 7": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 7,
+                "damage": 1
+            },
+            "requires": [
+                "Spirit Aura 2"
+            ]
+        },
+        "Flame Focus 8": {
+            "cost": 6,
+            "attributes": {
+                "damage": 11
+            },
+            "requires": [
+                "Spirit Aura 2"
+            ]
+        },
+        "Shadow Rush 9": {
+            "cost": 4,
+            "attributes": {
+                "mobility": 2,
+                "survivability": -2,
+                "damage": 9
+            },
+            "requires": [
+                "Storm Mastery 7"
+            ]
+        },
+        "Frost Strike 10": {
+            "cost": 2,
+            "attributes": {
+                "mobility": -3,
+                "survivability": 2,
+                "damage": 6
+            },
+            "requires": [
+                "Blade Shield 5"
+            ]
+        },
+        "Venom Burst 11": {
+            "cost": 5,
+            "attributes": {
+                "survivability": -2,
+                "damage": 8
+            },
+            "requires": [
+                "Storm Mastery 7"
+            ]
+        },
+        "Iron Focus 12": {
+            "cost": 2,
+            "attributes": {
+                "damage": 3,
+                "mobility": 3,
+                "survivability": 4
+            },
+            "requires": [
+                "Frost Strike 10"
+            ]
+        },
+        "Blood Nova 13": {
+            "cost": 4,
+            "attributes": {
+                "survivability": 8
+            },
+            "requires": [
+                "Storm Mastery 7"
+            ]
+        },
+        "Blood Strike 14": {
+            "cost": 4,
+            "attributes": {
+                "mobility": -1
+            },
+            "requires": [
+                "Flame Focus 8"
+            ]
+        }
+    },
+    "synergies": [
+        {
+            "skills": [
+                "Blood Strike 14",
+                "Frost Strike 10",
+                "Blood Nova 13",
+                "Venom Burst 11"
+            ],
+            "bonus": {
+                "mobility": 8,
+                "survivability": 16
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 7",
+                "Blade Mastery 3",
+                "Shadow Rush 9"
+            ],
+            "bonus": {
+                "mobility": 20
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 7",
+                "Frost Strike 10"
+            ],
+            "bonus": {
+                "survivability": 18,
+                "damage": 11
+            }
+        }
+    ]
+}

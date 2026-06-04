@@ -1,0 +1,5071 @@
+{
+    "budget": 373,
+    "scoring": {
+        "damage": 3.26,
+        "survivability": 1.81,
+        "mobility": 2.16,
+        "mana": 1.37,
+        "critical_chance": 0.78,
+        "attack_speed": 1.74,
+        "armor": 2.94,
+        "evasion": 0.86,
+        "cooldown_reduction": 1.78,
+        "life_steal": 1.81,
+        "fire_damage": 1.3,
+        "ice_damage": 2.21,
+        "poison_damage": 3.65
+    },
+    "skills": {
+        "Storm Burst 0": {
+            "cost": 2,
+            "attributes": {
+                "fire_damage": 8
+            },
+            "requires": []
+        },
+        "Iron Burst 1": {
+            "cost": 5,
+            "attributes": {
+                "poison_damage": -3
+            },
+            "requires": [
+                "Storm Burst 0"
+            ]
+        },
+        "Spirit Mastery 2": {
+            "cost": 4,
+            "attributes": {
+                "life_steal": 5,
+                "mana": 10
+            },
+            "requires": [
+                "Storm Burst 0"
+            ]
+        },
+        "Spirit Nova 3": {
+            "cost": 1,
+            "attributes": {
+                "mobility": 9
+            },
+            "requires": [
+                "Spirit Mastery 2"
+            ]
+        },
+        "Blood Strike 4": {
+            "cost": 4,
+            "attributes": {
+                "damage": 1,
+                "poison_damage": 4,
+                "armor": -2
+            },
+            "requires": [
+                "Iron Burst 1"
+            ]
+        },
+        "Storm Focus 5": {
+            "cost": 2,
+            "attributes": {
+                "armor": 5,
+                "survivability": 2,
+                "cooldown_reduction": 7
+            },
+            "requires": [
+                "Blood Strike 4"
+            ]
+        },
+        "Iron Dance 6": {
+            "cost": 1,
+            "attributes": {
+                "attack_speed": 12,
+                "armor": 10
+            },
+            "requires": [
+                "Spirit Nova 3"
+            ]
+        },
+        "Shadow Focus 7": {
+            "cost": 5,
+            "attributes": {
+                "survivability": 2,
+                "ice_damage": 8,
+                "evasion": -1
+            },
+            "requires": [
+                "Iron Burst 1"
+            ]
+        },
+        "Blood Barrier 8": {
+            "cost": 6,
+            "attributes": {
+                "fire_damage": -1,
+                "critical_chance": -2,
+                "mana": 10
+            },
+            "requires": [
+                "Blood Strike 4"
+            ]
+        },
+        "Blade Dance 9": {
+            "cost": 5,
+            "attributes": {
+                "damage": -1,
+                "ice_damage": 4
+            },
+            "requires": [
+                "Storm Burst 0"
+            ]
+        },
+        "Frost Barrier 10": {
+            "cost": 1,
+            "attributes": {
+                "mobility": 10,
+                "critical_chance": 8,
+                "poison_damage": 7
+            },
+            "requires": [
+                "Shadow Focus 7"
+            ]
+        },
+        "Blood Aura 11": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 2
+            },
+            "requires": [
+                "Storm Focus 5"
+            ]
+        },
+        "Flame Shield 12": {
+            "cost": 1,
+            "attributes": {
+                "fire_damage": 4,
+                "poison_damage": 10,
+                "evasion": 4
+            },
+            "requires": [
+                "Blood Aura 11"
+            ]
+        },
+        "Storm Focus 13": {
+            "cost": 4,
+            "attributes": {
+                "cooldown_reduction": -2
+            },
+            "requires": [
+                "Storm Focus 5"
+            ]
+        },
+        "Spirit Mastery 14": {
+            "cost": 6,
+            "attributes": {
+                "ice_damage": 12
+            },
+            "requires": [
+                "Storm Focus 13"
+            ]
+        },
+        "Arcane Shield 15": {
+            "cost": 5,
+            "attributes": {
+                "fire_damage": -3
+            },
+            "requires": [
+                "Shadow Focus 7"
+            ]
+        },
+        "Shadow Mastery 16": {
+            "cost": 5,
+            "attributes": {
+                "attack_speed": 4,
+                "evasion": 11
+            },
+            "requires": [
+                "Blood Aura 11"
+            ]
+        },
+        "Iron Burst 17": {
+            "cost": 6,
+            "attributes": {
+                "critical_chance": -1,
+                "damage": 12
+            },
+            "requires": [
+                "Blood Aura 11"
+            ]
+        },
+        "Arcane Burst 18": {
+            "cost": 4,
+            "attributes": {
+                "evasion": 6
+            },
+            "requires": [
+                "Flame Shield 12"
+            ]
+        },
+        "Shadow Rush 19": {
+            "cost": 6,
+            "attributes": {
+                "evasion": 4,
+                "mobility": -1,
+                "critical_chance": 4
+            },
+            "requires": [
+                "Spirit Mastery 14"
+            ]
+        },
+        "Blade Strike 20": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": -2,
+                "survivability": 3,
+                "ice_damage": -3
+            },
+            "requires": [
+                "Iron Burst 1"
+            ]
+        },
+        "Shadow Burst 21": {
+            "cost": 4,
+            "attributes": {
+                "ice_damage": 6
+            },
+            "requires": []
+        },
+        "Spirit Nova 22": {
+            "cost": 3,
+            "attributes": {
+                "critical_chance": 1,
+                "life_steal": 12
+            },
+            "requires": [
+                "Storm Focus 5"
+            ]
+        },
+        "Frost Focus 23": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 9,
+                "damage": 4
+            },
+            "requires": []
+        },
+        "Blood Strike 24": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": -3,
+                "evasion": 2,
+                "damage": 4
+            },
+            "requires": [
+                "Shadow Mastery 16"
+            ]
+        },
+        "Frost Strike 25": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 2,
+                "cooldown_reduction": -3
+            },
+            "requires": []
+        },
+        "Shadow Rush 26": {
+            "cost": 6,
+            "attributes": {
+                "cooldown_reduction": 7,
+                "ice_damage": 1,
+                "mana": 1
+            },
+            "requires": [
+                "Frost Barrier 10"
+            ]
+        },
+        "Iron Rush 27": {
+            "cost": 1,
+            "attributes": {
+                "armor": 6
+            },
+            "requires": [
+                "Spirit Mastery 14"
+            ]
+        },
+        "Iron Focus 28": {
+            "cost": 1,
+            "attributes": {
+                "critical_chance": 11,
+                "evasion": -2,
+                "ice_damage": 6
+            },
+            "requires": [
+                "Blade Strike 20"
+            ]
+        },
+        "Spirit Rush 29": {
+            "cost": 1,
+            "attributes": {
+                "cooldown_reduction": 5,
+                "mana": 7
+            },
+            "requires": [
+                "Frost Strike 25"
+            ]
+        },
+        "Blade Strike 30": {
+            "cost": 2,
+            "attributes": {
+                "critical_chance": 3
+            },
+            "requires": [
+                "Shadow Mastery 16"
+            ]
+        },
+        "Iron Mastery 31": {
+            "cost": 2,
+            "attributes": {
+                "critical_chance": -3,
+                "survivability": 8,
+                "cooldown_reduction": 4
+            },
+            "requires": [
+                "Shadow Rush 26"
+            ]
+        },
+        "Arcane Barrier 32": {
+            "cost": 5,
+            "attributes": {
+                "attack_speed": -3,
+                "cooldown_reduction": 9
+            },
+            "requires": [
+                "Iron Burst 17"
+            ]
+        },
+        "Iron Burst 33": {
+            "cost": 2,
+            "attributes": {
+                "evasion": 8,
+                "survivability": -3,
+                "mobility": 4
+            },
+            "requires": []
+        },
+        "Venom Rush 34": {
+            "cost": 1,
+            "attributes": {
+                "cooldown_reduction": -2
+            },
+            "requires": []
+        },
+        "Arcane Burst 35": {
+            "cost": 1,
+            "attributes": {
+                "fire_damage": 6,
+                "cooldown_reduction": 1,
+                "life_steal": 1
+            },
+            "requires": [
+                "Frost Barrier 10"
+            ]
+        },
+        "Spirit Mastery 36": {
+            "cost": 6,
+            "attributes": {
+                "fire_damage": 4
+            },
+            "requires": [
+                "Iron Focus 28"
+            ]
+        },
+        "Frost Barrier 37": {
+            "cost": 5,
+            "attributes": {
+                "mana": 5,
+                "ice_damage": 2
+            },
+            "requires": [
+                "Venom Rush 34"
+            ]
+        },
+        "Flame Rush 38": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 1,
+                "damage": 2
+            },
+            "requires": [
+                "Frost Barrier 37"
+            ]
+        },
+        "Spirit Shield 39": {
+            "cost": 5,
+            "attributes": {
+                "mobility": 6,
+                "cooldown_reduction": -1,
+                "survivability": 5
+            },
+            "requires": [
+                "Frost Focus 23"
+            ]
+        },
+        "Arcane Dance 40": {
+            "cost": 4,
+            "attributes": {
+                "poison_damage": 12,
+                "evasion": 10
+            },
+            "requires": [
+                "Flame Shield 12"
+            ]
+        },
+        "Flame Rush 41": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 5
+            },
+            "requires": [
+                "Arcane Burst 18"
+            ]
+        },
+        "Storm Barrier 42": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": 9,
+                "attack_speed": 7,
+                "mobility": 5
+            },
+            "requires": [
+                "Flame Shield 12"
+            ]
+        },
+        "Blade Burst 43": {
+            "cost": 2,
+            "attributes": {
+                "survivability": -2,
+                "fire_damage": 12
+            },
+            "requires": [
+                "Blade Strike 30"
+            ]
+        },
+        "Flame Strike 44": {
+            "cost": 2,
+            "attributes": {
+                "attack_speed": 10,
+                "cooldown_reduction": -3,
+                "poison_damage": 11
+            },
+            "requires": [
+                "Blade Burst 43"
+            ]
+        },
+        "Iron Burst 45": {
+            "cost": 2,
+            "attributes": {
+                "life_steal": -1,
+                "cooldown_reduction": 11,
+                "mana": 1
+            },
+            "requires": [
+                "Frost Focus 23"
+            ]
+        },
+        "Venom Strike 46": {
+            "cost": 5,
+            "attributes": {
+                "ice_damage": 12,
+                "armor": 9
+            },
+            "requires": [
+                "Flame Rush 38"
+            ]
+        },
+        "Arcane Focus 47": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 11
+            },
+            "requires": [
+                "Spirit Mastery 2"
+            ]
+        },
+        "Arcane Strike 48": {
+            "cost": 4,
+            "attributes": {
+                "mana": 4,
+                "mobility": 12,
+                "survivability": 5
+            },
+            "requires": [
+                "Blade Dance 9"
+            ]
+        },
+        "Iron Aura 49": {
+            "cost": 5,
+            "attributes": {
+                "armor": 12,
+                "survivability": 4
+            },
+            "requires": [
+                "Shadow Rush 26"
+            ]
+        },
+        "Storm Strike 50": {
+            "cost": 4,
+            "attributes": {
+                "poison_damage": 8,
+                "attack_speed": 6,
+                "mobility": -2
+            },
+            "requires": [
+                "Iron Burst 33"
+            ]
+        },
+        "Frost Mastery 51": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": 6,
+                "ice_damage": -3,
+                "critical_chance": 4
+            },
+            "requires": []
+        },
+        "Frost Burst 52": {
+            "cost": 1,
+            "attributes": {
+                "attack_speed": 1
+            },
+            "requires": [
+                "Spirit Mastery 36"
+            ]
+        },
+        "Flame Aura 53": {
+            "cost": 1,
+            "attributes": {
+                "armor": 12
+            },
+            "requires": [
+                "Frost Barrier 10"
+            ]
+        },
+        "Shadow Nova 54": {
+            "cost": 4,
+            "attributes": {
+                "evasion": 2
+            },
+            "requires": [
+                "Frost Mastery 51"
+            ]
+        },
+        "Blade Barrier 55": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 7
+            },
+            "requires": [
+                "Arcane Strike 48"
+            ]
+        },
+        "Shadow Barrier 56": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 1,
+                "life_steal": 2
+            },
+            "requires": [
+                "Storm Focus 13"
+            ]
+        },
+        "Iron Mastery 57": {
+            "cost": 2,
+            "attributes": {
+                "attack_speed": 9,
+                "life_steal": 5
+            },
+            "requires": [
+                "Blood Barrier 8"
+            ]
+        },
+        "Spirit Dance 58": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": 2
+            },
+            "requires": [
+                "Venom Strike 46"
+            ]
+        },
+        "Frost Shield 59": {
+            "cost": 4,
+            "attributes": {
+                "mana": -3,
+                "poison_damage": 12
+            },
+            "requires": [
+                "Flame Rush 41"
+            ]
+        },
+        "Shadow Dance 60": {
+            "cost": 6,
+            "attributes": {
+                "damage": 10
+            },
+            "requires": [
+                "Storm Strike 50"
+            ]
+        },
+        "Shadow Burst 61": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 9
+            },
+            "requires": []
+        },
+        "Blood Rush 62": {
+            "cost": 2,
+            "attributes": {
+                "critical_chance": -2
+            },
+            "requires": [
+                "Blade Burst 43"
+            ]
+        },
+        "Spirit Barrier 63": {
+            "cost": 1,
+            "attributes": {
+                "mana": -2,
+                "poison_damage": 11
+            },
+            "requires": [
+                "Frost Strike 25"
+            ]
+        },
+        "Spirit Barrier 64": {
+            "cost": 1,
+            "attributes": {
+                "armor": 11,
+                "cooldown_reduction": -1,
+                "damage": 7
+            },
+            "requires": [
+                "Blade Strike 30"
+            ]
+        },
+        "Blood Strike 65": {
+            "cost": 5,
+            "attributes": {
+                "survivability": 4,
+                "armor": 2
+            },
+            "requires": [
+                "Arcane Strike 48"
+            ]
+        },
+        "Spirit Mastery 66": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": 8
+            },
+            "requires": [
+                "Frost Burst 52"
+            ]
+        },
+        "Venom Shield 67": {
+            "cost": 1,
+            "attributes": {
+                "life_steal": 8,
+                "attack_speed": 10
+            },
+            "requires": [
+                "Shadow Focus 7"
+            ]
+        },
+        "Flame Shield 68": {
+            "cost": 3,
+            "attributes": {
+                "poison_damage": 7,
+                "armor": 2,
+                "mana": 11
+            },
+            "requires": []
+        },
+        "Arcane Barrier 69": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": -3
+            },
+            "requires": []
+        },
+        "Venom Aura 70": {
+            "cost": 4,
+            "attributes": {
+                "critical_chance": -2,
+                "mana": 9,
+                "damage": 9
+            },
+            "requires": [
+                "Blade Strike 30"
+            ]
+        },
+        "Arcane Nova 71": {
+            "cost": 6,
+            "attributes": {
+                "attack_speed": 1
+            },
+            "requires": [
+                "Storm Focus 13"
+            ]
+        },
+        "Blade Barrier 72": {
+            "cost": 2,
+            "attributes": {
+                "armor": 7
+            },
+            "requires": [
+                "Spirit Mastery 2"
+            ]
+        },
+        "Shadow Strike 73": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 2,
+                "poison_damage": 12
+            },
+            "requires": [
+                "Arcane Burst 35"
+            ]
+        },
+        "Blood Strike 74": {
+            "cost": 4,
+            "attributes": {
+                "damage": 12,
+                "life_steal": 3,
+                "evasion": 10
+            },
+            "requires": [
+                "Blade Barrier 72"
+            ]
+        },
+        "Iron Nova 75": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 8
+            },
+            "requires": [
+                "Blood Strike 74"
+            ]
+        },
+        "Iron Focus 76": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": 2
+            },
+            "requires": [
+                "Blood Strike 65"
+            ]
+        },
+        "Venom Dance 77": {
+            "cost": 2,
+            "attributes": {
+                "poison_damage": 6
+            },
+            "requires": []
+        },
+        "Arcane Shield 78": {
+            "cost": 1,
+            "attributes": {
+                "poison_damage": -2,
+                "fire_damage": -1,
+                "ice_damage": -1
+            },
+            "requires": [
+                "Flame Shield 68"
+            ]
+        },
+        "Iron Shield 79": {
+            "cost": 6,
+            "attributes": {
+                "damage": -1,
+                "evasion": -3
+            },
+            "requires": [
+                "Iron Aura 49"
+            ]
+        },
+        "Flame Shield 80": {
+            "cost": 4,
+            "attributes": {
+                "mobility": 9,
+                "ice_damage": 1,
+                "critical_chance": 8
+            },
+            "requires": [
+                "Iron Aura 49"
+            ]
+        },
+        "Venom Rush 81": {
+            "cost": 6,
+            "attributes": {
+                "damage": 11,
+                "ice_damage": -1
+            },
+            "requires": [
+                "Spirit Dance 58"
+            ]
+        },
+        "Frost Barrier 82": {
+            "cost": 4,
+            "attributes": {
+                "survivability": 12
+            },
+            "requires": []
+        },
+        "Flame Strike 83": {
+            "cost": 2,
+            "attributes": {
+                "damage": -3,
+                "evasion": 7
+            },
+            "requires": [
+                "Venom Rush 34"
+            ]
+        },
+        "Spirit Aura 84": {
+            "cost": 1,
+            "attributes": {
+                "mana": 10,
+                "mobility": -2
+            },
+            "requires": [
+                "Blood Strike 24"
+            ]
+        },
+        "Shadow Burst 85": {
+            "cost": 3,
+            "attributes": {
+                "armor": 6,
+                "survivability": 12,
+                "cooldown_reduction": 8
+            },
+            "requires": [
+                "Frost Shield 59"
+            ]
+        },
+        "Blade Mastery 86": {
+            "cost": 5,
+            "attributes": {
+                "damage": 3
+            },
+            "requires": [
+                "Venom Aura 70"
+            ]
+        },
+        "Spirit Strike 87": {
+            "cost": 3,
+            "attributes": {
+                "mobility": -2,
+                "mana": 2
+            },
+            "requires": [
+                "Shadow Burst 85"
+            ]
+        },
+        "Arcane Strike 88": {
+            "cost": 6,
+            "attributes": {
+                "ice_damage": 8,
+                "damage": 8
+            },
+            "requires": [
+                "Shadow Burst 61"
+            ]
+        },
+        "Frost Dance 89": {
+            "cost": 5,
+            "attributes": {
+                "attack_speed": -3
+            },
+            "requires": [
+                "Spirit Strike 87"
+            ]
+        },
+        "Storm Barrier 90": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 6,
+                "evasion": 9,
+                "damage": 9
+            },
+            "requires": [
+                "Blade Dance 9"
+            ]
+        },
+        "Spirit Shield 91": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": 4,
+                "mobility": 3
+            },
+            "requires": [
+                "Spirit Shield 39"
+            ]
+        },
+        "Frost Rush 92": {
+            "cost": 3,
+            "attributes": {
+                "ice_damage": -1,
+                "mana": 8,
+                "attack_speed": 6
+            },
+            "requires": [
+                "Spirit Dance 58"
+            ]
+        },
+        "Iron Aura 93": {
+            "cost": 2,
+            "attributes": {
+                "mana": 1,
+                "survivability": 2,
+                "cooldown_reduction": 3
+            },
+            "requires": [
+                "Venom Rush 34"
+            ]
+        },
+        "Iron Strike 94": {
+            "cost": 6,
+            "attributes": {
+                "evasion": -3,
+                "life_steal": 1,
+                "damage": 6
+            },
+            "requires": [
+                "Spirit Barrier 64"
+            ]
+        },
+        "Flame Dance 95": {
+            "cost": 6,
+            "attributes": {
+                "evasion": 3,
+                "damage": 12,
+                "mana": 10
+            },
+            "requires": [
+                "Shadow Nova 54"
+            ]
+        },
+        "Blade Burst 96": {
+            "cost": 2,
+            "attributes": {
+                "mana": 6
+            },
+            "requires": [
+                "Arcane Burst 35"
+            ]
+        },
+        "Frost Rush 97": {
+            "cost": 3,
+            "attributes": {
+                "armor": 11,
+                "life_steal": 12,
+                "poison_damage": 2
+            },
+            "requires": [
+                "Flame Shield 68"
+            ]
+        },
+        "Arcane Barrier 98": {
+            "cost": 2,
+            "attributes": {
+                "evasion": 1
+            },
+            "requires": [
+                "Arcane Barrier 69"
+            ]
+        },
+        "Frost Burst 99": {
+            "cost": 3,
+            "attributes": {
+                "mobility": 2,
+                "damage": 5,
+                "cooldown_reduction": 4
+            },
+            "requires": [
+                "Venom Strike 46"
+            ]
+        },
+        "Frost Mastery 100": {
+            "cost": 2,
+            "attributes": {
+                "survivability": 5,
+                "cooldown_reduction": -3
+            },
+            "requires": [
+                "Spirit Strike 87"
+            ]
+        },
+        "Flame Nova 101": {
+            "cost": 3,
+            "attributes": {
+                "poison_damage": 4
+            },
+            "requires": [
+                "Iron Burst 33"
+            ]
+        },
+        "Blood Mastery 102": {
+            "cost": 5,
+            "attributes": {
+                "mobility": 12
+            },
+            "requires": [
+                "Spirit Shield 39"
+            ]
+        },
+        "Iron Dance 103": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": 12,
+                "attack_speed": 12
+            },
+            "requires": [
+                "Spirit Aura 84"
+            ]
+        },
+        "Blade Nova 104": {
+            "cost": 5,
+            "attributes": {
+                "damage": 1,
+                "ice_damage": 1
+            },
+            "requires": [
+                "Flame Rush 38"
+            ]
+        },
+        "Blade Focus 105": {
+            "cost": 2,
+            "attributes": {
+                "damage": -2,
+                "survivability": 6,
+                "mobility": 9
+            },
+            "requires": [
+                "Shadow Nova 54"
+            ]
+        },
+        "Spirit Shield 106": {
+            "cost": 3,
+            "attributes": {
+                "poison_damage": -2
+            },
+            "requires": [
+                "Arcane Barrier 98"
+            ]
+        },
+        "Iron Nova 107": {
+            "cost": 6,
+            "attributes": {
+                "fire_damage": 3,
+                "critical_chance": 12,
+                "mobility": -3
+            },
+            "requires": [
+                "Flame Shield 68"
+            ]
+        },
+        "Arcane Barrier 108": {
+            "cost": 2,
+            "attributes": {
+                "attack_speed": 2
+            },
+            "requires": [
+                "Iron Aura 93"
+            ]
+        },
+        "Blood Strike 109": {
+            "cost": 3,
+            "attributes": {
+                "damage": 11,
+                "mobility": -3,
+                "life_steal": 6
+            },
+            "requires": [
+                "Arcane Burst 35"
+            ]
+        },
+        "Arcane Dance 110": {
+            "cost": 5,
+            "attributes": {
+                "armor": 7,
+                "mobility": 7
+            },
+            "requires": [
+                "Iron Mastery 31"
+            ]
+        },
+        "Blade Aura 111": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 10,
+                "cooldown_reduction": 2,
+                "evasion": -3
+            },
+            "requires": []
+        },
+        "Storm Shield 112": {
+            "cost": 5,
+            "attributes": {
+                "armor": 6
+            },
+            "requires": [
+                "Arcane Barrier 32"
+            ]
+        },
+        "Storm Nova 113": {
+            "cost": 5,
+            "attributes": {
+                "attack_speed": -3,
+                "survivability": 1,
+                "ice_damage": 4
+            },
+            "requires": [
+                "Storm Barrier 90"
+            ]
+        },
+        "Storm Mastery 114": {
+            "cost": 6,
+            "attributes": {
+                "armor": 11,
+                "poison_damage": 1
+            },
+            "requires": [
+                "Flame Strike 44"
+            ]
+        },
+        "Blood Focus 115": {
+            "cost": 1,
+            "attributes": {
+                "ice_damage": 1
+            },
+            "requires": [
+                "Arcane Nova 71"
+            ]
+        },
+        "Flame Burst 116": {
+            "cost": 3,
+            "attributes": {
+                "mana": 5
+            },
+            "requires": [
+                "Iron Focus 76"
+            ]
+        },
+        "Blade Focus 117": {
+            "cost": 6,
+            "attributes": {
+                "cooldown_reduction": -1,
+                "damage": 4
+            },
+            "requires": [
+                "Storm Barrier 90"
+            ]
+        },
+        "Blood Barrier 118": {
+            "cost": 6,
+            "attributes": {
+                "attack_speed": 4,
+                "critical_chance": 7,
+                "mobility": 1
+            },
+            "requires": [
+                "Frost Mastery 51"
+            ]
+        },
+        "Shadow Mastery 119": {
+            "cost": 5,
+            "attributes": {
+                "mana": -2,
+                "evasion": 3
+            },
+            "requires": [
+                "Venom Dance 77"
+            ]
+        },
+        "Blood Focus 120": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 8,
+                "armor": 8
+            },
+            "requires": [
+                "Frost Barrier 82"
+            ]
+        },
+        "Shadow Mastery 121": {
+            "cost": 3,
+            "attributes": {
+                "damage": 9
+            },
+            "requires": [
+                "Flame Dance 95"
+            ]
+        },
+        "Venom Strike 122": {
+            "cost": 4,
+            "attributes": {
+                "cooldown_reduction": -2,
+                "evasion": 9,
+                "mana": 3
+            },
+            "requires": [
+                "Iron Focus 28"
+            ]
+        },
+        "Flame Shield 123": {
+            "cost": 4,
+            "attributes": {
+                "mana": -2,
+                "mobility": 1
+            },
+            "requires": []
+        },
+        "Blood Aura 124": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 2
+            },
+            "requires": [
+                "Shadow Mastery 121"
+            ]
+        },
+        "Flame Rush 125": {
+            "cost": 4,
+            "attributes": {
+                "mobility": 10
+            },
+            "requires": [
+                "Iron Aura 93"
+            ]
+        },
+        "Arcane Barrier 126": {
+            "cost": 4,
+            "attributes": {
+                "armor": 2
+            },
+            "requires": [
+                "Spirit Rush 29"
+            ]
+        },
+        "Iron Burst 127": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 2,
+                "life_steal": -1,
+                "evasion": 2
+            },
+            "requires": []
+        },
+        "Venom Burst 128": {
+            "cost": 1,
+            "attributes": {
+                "evasion": 12
+            },
+            "requires": [
+                "Frost Focus 23"
+            ]
+        },
+        "Storm Shield 129": {
+            "cost": 3,
+            "attributes": {
+                "armor": 6,
+                "evasion": 11
+            },
+            "requires": [
+                "Iron Burst 45"
+            ]
+        },
+        "Arcane Strike 130": {
+            "cost": 6,
+            "attributes": {
+                "ice_damage": 7,
+                "mobility": 11
+            },
+            "requires": [
+                "Blood Strike 65"
+            ]
+        },
+        "Shadow Burst 131": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": 2,
+                "life_steal": 1
+            },
+            "requires": [
+                "Flame Shield 80"
+            ]
+        },
+        "Frost Rush 132": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 1,
+                "cooldown_reduction": 2
+            },
+            "requires": [
+                "Shadow Rush 19"
+            ]
+        },
+        "Blade Strike 133": {
+            "cost": 2,
+            "attributes": {
+                "mana": -3,
+                "damage": -1,
+                "evasion": 7
+            },
+            "requires": [
+                "Spirit Mastery 36"
+            ]
+        },
+        "Blade Aura 134": {
+            "cost": 6,
+            "attributes": {
+                "attack_speed": 11
+            },
+            "requires": [
+                "Flame Rush 125"
+            ]
+        },
+        "Spirit Focus 135": {
+            "cost": 5,
+            "attributes": {
+                "mobility": 5,
+                "fire_damage": 7,
+                "cooldown_reduction": -1
+            },
+            "requires": []
+        },
+        "Shadow Focus 136": {
+            "cost": 5,
+            "attributes": {
+                "evasion": -2,
+                "mana": 6
+            },
+            "requires": [
+                "Blade Barrier 72"
+            ]
+        },
+        "Iron Focus 137": {
+            "cost": 3,
+            "attributes": {
+                "poison_damage": 11,
+                "armor": 12
+            },
+            "requires": [
+                "Storm Mastery 114"
+            ]
+        },
+        "Storm Barrier 138": {
+            "cost": 6,
+            "attributes": {
+                "fire_damage": -1,
+                "attack_speed": -3
+            },
+            "requires": [
+                "Blade Burst 96"
+            ]
+        },
+        "Shadow Shield 139": {
+            "cost": 2,
+            "attributes": {
+                "fire_damage": 7
+            },
+            "requires": [
+                "Shadow Burst 85"
+            ]
+        },
+        "Blade Burst 140": {
+            "cost": 6,
+            "attributes": {
+                "armor": 2,
+                "mobility": 9
+            },
+            "requires": [
+                "Spirit Barrier 63"
+            ]
+        },
+        "Venom Dance 141": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 3,
+                "cooldown_reduction": 3
+            },
+            "requires": [
+                "Blood Focus 115"
+            ]
+        },
+        "Frost Nova 142": {
+            "cost": 6,
+            "attributes": {
+                "survivability": 6,
+                "fire_damage": 1
+            },
+            "requires": [
+                "Shadow Strike 73"
+            ]
+        },
+        "Blade Dance 143": {
+            "cost": 1,
+            "attributes": {
+                "damage": 3,
+                "poison_damage": 3
+            },
+            "requires": [
+                "Arcane Barrier 98"
+            ]
+        },
+        "Spirit Shield 144": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": 2
+            },
+            "requires": [
+                "Frost Barrier 37"
+            ]
+        },
+        "Storm Strike 145": {
+            "cost": 5,
+            "attributes": {
+                "poison_damage": 1
+            },
+            "requires": [
+                "Arcane Strike 88"
+            ]
+        },
+        "Arcane Strike 146": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 2,
+                "attack_speed": 12
+            },
+            "requires": [
+                "Iron Dance 6"
+            ]
+        },
+        "Flame Shield 147": {
+            "cost": 1,
+            "attributes": {
+                "mana": 4
+            },
+            "requires": [
+                "Frost Nova 142"
+            ]
+        },
+        "Storm Focus 148": {
+            "cost": 6,
+            "attributes": {
+                "evasion": -3
+            },
+            "requires": [
+                "Arcane Strike 146"
+            ]
+        },
+        "Shadow Burst 149": {
+            "cost": 6,
+            "attributes": {
+                "critical_chance": 6,
+                "fire_damage": 3,
+                "life_steal": 1
+            },
+            "requires": []
+        },
+        "Blood Shield 150": {
+            "cost": 6,
+            "attributes": {
+                "mana": -1
+            },
+            "requires": [
+                "Storm Barrier 138"
+            ]
+        },
+        "Blade Aura 151": {
+            "cost": 3,
+            "attributes": {
+                "life_steal": 12,
+                "attack_speed": 4,
+                "fire_damage": -1
+            },
+            "requires": [
+                "Arcane Dance 110"
+            ]
+        },
+        "Venom Shield 152": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 8
+            },
+            "requires": [
+                "Arcane Barrier 126"
+            ]
+        },
+        "Venom Barrier 153": {
+            "cost": 5,
+            "attributes": {
+                "mobility": 3,
+                "poison_damage": 11
+            },
+            "requires": [
+                "Blade Nova 104"
+            ]
+        },
+        "Arcane Rush 154": {
+            "cost": 3,
+            "attributes": {
+                "critical_chance": 1
+            },
+            "requires": [
+                "Flame Rush 41"
+            ]
+        },
+        "Venom Burst 155": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": -3
+            },
+            "requires": [
+                "Storm Shield 112"
+            ]
+        },
+        "Flame Focus 156": {
+            "cost": 5,
+            "attributes": {
+                "attack_speed": -1,
+                "damage": 1
+            },
+            "requires": [
+                "Iron Burst 45"
+            ]
+        },
+        "Shadow Barrier 157": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": 4
+            },
+            "requires": [
+                "Flame Shield 80"
+            ]
+        },
+        "Shadow Rush 158": {
+            "cost": 6,
+            "attributes": {
+                "life_steal": -2,
+                "mobility": 9,
+                "poison_damage": 6
+            },
+            "requires": [
+                "Spirit Barrier 63"
+            ]
+        },
+        "Flame Barrier 159": {
+            "cost": 5,
+            "attributes": {
+                "ice_damage": -3
+            },
+            "requires": [
+                "Blade Dance 143"
+            ]
+        },
+        "Frost Barrier 160": {
+            "cost": 1,
+            "attributes": {
+                "damage": 5,
+                "armor": -3
+            },
+            "requires": [
+                "Shadow Mastery 119"
+            ]
+        },
+        "Storm Mastery 161": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 10,
+                "life_steal": -1,
+                "survivability": 11
+            },
+            "requires": [
+                "Storm Shield 129"
+            ]
+        },
+        "Frost Burst 162": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": 9,
+                "critical_chance": 12
+            },
+            "requires": [
+                "Spirit Aura 84"
+            ]
+        },
+        "Spirit Barrier 163": {
+            "cost": 5,
+            "attributes": {
+                "fire_damage": 7,
+                "attack_speed": 1,
+                "evasion": 1
+            },
+            "requires": [
+                "Blade Focus 117"
+            ]
+        },
+        "Frost Aura 164": {
+            "cost": 6,
+            "attributes": {
+                "armor": 1
+            },
+            "requires": [
+                "Venom Strike 122"
+            ]
+        },
+        "Shadow Dance 165": {
+            "cost": 1,
+            "attributes": {
+                "mobility": 11,
+                "mana": 9,
+                "damage": -3
+            },
+            "requires": [
+                "Venom Barrier 153"
+            ]
+        },
+        "Blade Nova 166": {
+            "cost": 1,
+            "attributes": {
+                "fire_damage": 7
+            },
+            "requires": [
+                "Iron Shield 79"
+            ]
+        },
+        "Iron Shield 167": {
+            "cost": 3,
+            "attributes": {
+                "armor": 8,
+                "survivability": -3,
+                "critical_chance": 11
+            },
+            "requires": [
+                "Flame Focus 156"
+            ]
+        },
+        "Blade Dance 168": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 4,
+                "attack_speed": 3,
+                "poison_damage": 7
+            },
+            "requires": [
+                "Arcane Strike 88"
+            ]
+        },
+        "Iron Burst 169": {
+            "cost": 1,
+            "attributes": {
+                "life_steal": 12
+            },
+            "requires": [
+                "Flame Nova 101"
+            ]
+        },
+        "Arcane Shield 170": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 12
+            },
+            "requires": [
+                "Shadow Burst 85"
+            ]
+        },
+        "Flame Dance 171": {
+            "cost": 4,
+            "attributes": {
+                "life_steal": 12,
+                "critical_chance": 1
+            },
+            "requires": [
+                "Flame Rush 38"
+            ]
+        },
+        "Spirit Dance 172": {
+            "cost": 6,
+            "attributes": {
+                "evasion": 4,
+                "survivability": -2
+            },
+            "requires": [
+                "Arcane Barrier 32"
+            ]
+        },
+        "Spirit Shield 173": {
+            "cost": 2,
+            "attributes": {
+                "mana": 11
+            },
+            "requires": [
+                "Storm Strike 145"
+            ]
+        },
+        "Blade Burst 174": {
+            "cost": 5,
+            "attributes": {
+                "life_steal": 4,
+                "mobility": 2,
+                "fire_damage": 2
+            },
+            "requires": [
+                "Arcane Shield 78"
+            ]
+        },
+        "Blade Strike 175": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 4,
+                "poison_damage": -2,
+                "survivability": 10
+            },
+            "requires": [
+                "Shadow Burst 61"
+            ]
+        },
+        "Storm Focus 176": {
+            "cost": 2,
+            "attributes": {
+                "cooldown_reduction": 12
+            },
+            "requires": [
+                "Venom Rush 81"
+            ]
+        },
+        "Shadow Burst 177": {
+            "cost": 4,
+            "attributes": {
+                "critical_chance": 6,
+                "cooldown_reduction": -3,
+                "mana": 11
+            },
+            "requires": [
+                "Iron Shield 79"
+            ]
+        },
+        "Arcane Dance 178": {
+            "cost": 4,
+            "attributes": {
+                "critical_chance": 3
+            },
+            "requires": [
+                "Flame Dance 171"
+            ]
+        },
+        "Arcane Barrier 179": {
+            "cost": 2,
+            "attributes": {
+                "damage": 10,
+                "ice_damage": 2
+            },
+            "requires": [
+                "Iron Dance 103"
+            ]
+        },
+        "Storm Aura 180": {
+            "cost": 2,
+            "attributes": {
+                "fire_damage": 4,
+                "evasion": 9,
+                "ice_damage": -2
+            },
+            "requires": [
+                "Blood Rush 62"
+            ]
+        },
+        "Flame Burst 181": {
+            "cost": 5,
+            "attributes": {
+                "mana": 3,
+                "armor": 10
+            },
+            "requires": [
+                "Shadow Barrier 157"
+            ]
+        },
+        "Iron Dance 182": {
+            "cost": 2,
+            "attributes": {
+                "poison_damage": 10,
+                "fire_damage": 4,
+                "critical_chance": 5
+            },
+            "requires": [
+                "Shadow Burst 149"
+            ]
+        },
+        "Arcane Nova 183": {
+            "cost": 5,
+            "attributes": {
+                "poison_damage": -1,
+                "ice_damage": 7,
+                "life_steal": 6
+            },
+            "requires": [
+                "Spirit Shield 106"
+            ]
+        },
+        "Spirit Aura 184": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 6,
+                "poison_damage": 1,
+                "ice_damage": -1
+            },
+            "requires": [
+                "Blood Shield 150"
+            ]
+        },
+        "Venom Barrier 185": {
+            "cost": 4,
+            "attributes": {
+                "cooldown_reduction": -3,
+                "mana": 4,
+                "mobility": 11
+            },
+            "requires": [
+                "Venom Burst 155"
+            ]
+        },
+        "Arcane Nova 186": {
+            "cost": 3,
+            "attributes": {
+                "survivability": 7,
+                "critical_chance": 6
+            },
+            "requires": []
+        },
+        "Iron Shield 187": {
+            "cost": 6,
+            "attributes": {
+                "poison_damage": 4,
+                "cooldown_reduction": 2
+            },
+            "requires": [
+                "Spirit Aura 184"
+            ]
+        },
+        "Arcane Barrier 188": {
+            "cost": 2,
+            "attributes": {
+                "evasion": 1,
+                "damage": 1
+            },
+            "requires": [
+                "Venom Burst 128"
+            ]
+        },
+        "Iron Shield 189": {
+            "cost": 4,
+            "attributes": {
+                "ice_damage": 5,
+                "damage": 11,
+                "attack_speed": 12
+            },
+            "requires": [
+                "Shadow Rush 19"
+            ]
+        },
+        "Spirit Shield 190": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": 6
+            },
+            "requires": [
+                "Shadow Burst 21"
+            ]
+        },
+        "Venom Nova 191": {
+            "cost": 6,
+            "attributes": {
+                "armor": 5,
+                "cooldown_reduction": 3
+            },
+            "requires": [
+                "Flame Burst 116"
+            ]
+        },
+        "Storm Nova 192": {
+            "cost": 5,
+            "attributes": {
+                "fire_damage": 4
+            },
+            "requires": [
+                "Flame Shield 123"
+            ]
+        },
+        "Blood Mastery 193": {
+            "cost": 6,
+            "attributes": {
+                "evasion": -3,
+                "cooldown_reduction": 7,
+                "damage": -1
+            },
+            "requires": [
+                "Blood Mastery 102"
+            ]
+        },
+        "Arcane Shield 194": {
+            "cost": 4,
+            "attributes": {
+                "fire_damage": 7,
+                "mana": 7,
+                "life_steal": 9
+            },
+            "requires": [
+                "Venom Dance 141"
+            ]
+        },
+        "Blade Focus 195": {
+            "cost": 5,
+            "attributes": {
+                "cooldown_reduction": 4,
+                "mana": 2
+            },
+            "requires": [
+                "Spirit Barrier 163"
+            ]
+        },
+        "Spirit Burst 196": {
+            "cost": 2,
+            "attributes": {
+                "survivability": -1,
+                "damage": 5,
+                "poison_damage": 7
+            },
+            "requires": [
+                "Blood Rush 62"
+            ]
+        },
+        "Iron Aura 197": {
+            "cost": 4,
+            "attributes": {
+                "cooldown_reduction": 12,
+                "armor": 1,
+                "survivability": 4
+            },
+            "requires": [
+                "Storm Strike 145"
+            ]
+        },
+        "Spirit Barrier 198": {
+            "cost": 6,
+            "attributes": {
+                "mobility": -1,
+                "critical_chance": 3,
+                "armor": 12
+            },
+            "requires": [
+                "Spirit Shield 91"
+            ]
+        },
+        "Venom Barrier 199": {
+            "cost": 6,
+            "attributes": {
+                "mana": -2
+            },
+            "requires": [
+                "Blade Strike 20"
+            ]
+        },
+        "Venom Rush 200": {
+            "cost": 1,
+            "attributes": {
+                "mobility": 6,
+                "fire_damage": -1
+            },
+            "requires": [
+                "Venom Dance 77"
+            ]
+        },
+        "Frost Burst 201": {
+            "cost": 4,
+            "attributes": {
+                "poison_damage": 10,
+                "mana": 2,
+                "life_steal": 6
+            },
+            "requires": [
+                "Shadow Dance 165"
+            ]
+        },
+        "Storm Barrier 202": {
+            "cost": 4,
+            "attributes": {
+                "damage": 6,
+                "cooldown_reduction": 3
+            },
+            "requires": [
+                "Blade Focus 105"
+            ]
+        },
+        "Arcane Nova 203": {
+            "cost": 2,
+            "attributes": {
+                "fire_damage": -1,
+                "damage": -3
+            },
+            "requires": [
+                "Blade Aura 151"
+            ]
+        },
+        "Storm Mastery 204": {
+            "cost": 3,
+            "attributes": {
+                "life_steal": 8,
+                "mobility": 8,
+                "mana": 7
+            },
+            "requires": [
+                "Iron Shield 79"
+            ]
+        },
+        "Storm Shield 205": {
+            "cost": 4,
+            "attributes": {
+                "ice_damage": 12,
+                "mana": -2
+            },
+            "requires": [
+                "Spirit Rush 29"
+            ]
+        },
+        "Iron Barrier 206": {
+            "cost": 5,
+            "attributes": {
+                "cooldown_reduction": 2
+            },
+            "requires": [
+                "Frost Strike 25"
+            ]
+        },
+        "Arcane Mastery 207": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 1,
+                "cooldown_reduction": 6
+            },
+            "requires": [
+                "Shadow Burst 149"
+            ]
+        },
+        "Iron Burst 208": {
+            "cost": 1,
+            "attributes": {
+                "ice_damage": 5,
+                "life_steal": 6
+            },
+            "requires": [
+                "Storm Mastery 204"
+            ]
+        },
+        "Flame Mastery 209": {
+            "cost": 1,
+            "attributes": {
+                "evasion": 11,
+                "mobility": 5
+            },
+            "requires": [
+                "Arcane Nova 71"
+            ]
+        },
+        "Blade Mastery 210": {
+            "cost": 1,
+            "attributes": {
+                "evasion": 4,
+                "attack_speed": 9,
+                "critical_chance": 7
+            },
+            "requires": [
+                "Arcane Strike 48"
+            ]
+        },
+        "Frost Mastery 211": {
+            "cost": 1,
+            "attributes": {
+                "evasion": 4,
+                "damage": 10,
+                "poison_damage": 6
+            },
+            "requires": [
+                "Blood Barrier 118"
+            ]
+        },
+        "Flame Shield 212": {
+            "cost": 1,
+            "attributes": {
+                "fire_damage": 7,
+                "survivability": 9,
+                "armor": 12
+            },
+            "requires": [
+                "Frost Burst 52"
+            ]
+        },
+        "Venom Barrier 213": {
+            "cost": 2,
+            "attributes": {
+                "attack_speed": 12,
+                "life_steal": 4
+            },
+            "requires": [
+                "Spirit Nova 22"
+            ]
+        },
+        "Iron Mastery 214": {
+            "cost": 6,
+            "attributes": {
+                "armor": -1,
+                "mobility": -3
+            },
+            "requires": [
+                "Spirit Nova 22"
+            ]
+        },
+        "Frost Strike 215": {
+            "cost": 5,
+            "attributes": {
+                "armor": 9,
+                "damage": 12
+            },
+            "requires": [
+                "Arcane Dance 40"
+            ]
+        },
+        "Venom Barrier 216": {
+            "cost": 1,
+            "attributes": {
+                "damage": 11,
+                "fire_damage": 1,
+                "survivability": 4
+            },
+            "requires": [
+                "Blade Nova 166"
+            ]
+        },
+        "Iron Rush 217": {
+            "cost": 1,
+            "attributes": {
+                "poison_damage": -1,
+                "ice_damage": 4,
+                "life_steal": -2
+            },
+            "requires": [
+                "Arcane Nova 71"
+            ]
+        },
+        "Blade Rush 218": {
+            "cost": 1,
+            "attributes": {
+                "armor": 6,
+                "attack_speed": -1
+            },
+            "requires": [
+                "Iron Shield 189"
+            ]
+        },
+        "Frost Shield 219": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 11
+            },
+            "requires": [
+                "Arcane Strike 88"
+            ]
+        },
+        "Venom Nova 220": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 8,
+                "critical_chance": 4,
+                "damage": 9
+            },
+            "requires": [
+                "Storm Focus 176"
+            ]
+        },
+        "Storm Shield 221": {
+            "cost": 5,
+            "attributes": {
+                "poison_damage": 5,
+                "survivability": 9
+            },
+            "requires": [
+                "Iron Nova 75"
+            ]
+        },
+        "Iron Rush 222": {
+            "cost": 4,
+            "attributes": {
+                "mobility": 10
+            },
+            "requires": [
+                "Iron Dance 103"
+            ]
+        },
+        "Venom Rush 223": {
+            "cost": 4,
+            "attributes": {
+                "critical_chance": 7
+            },
+            "requires": [
+                "Venom Strike 122"
+            ]
+        },
+        "Flame Burst 224": {
+            "cost": 4,
+            "attributes": {
+                "fire_damage": -1,
+                "ice_damage": 1,
+                "mobility": 4
+            },
+            "requires": [
+                "Flame Strike 83"
+            ]
+        },
+        "Frost Burst 225": {
+            "cost": 3,
+            "attributes": {
+                "survivability": 4,
+                "critical_chance": 3
+            },
+            "requires": [
+                "Venom Burst 155"
+            ]
+        },
+        "Spirit Burst 226": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": -3,
+                "fire_damage": 8,
+                "life_steal": 9
+            },
+            "requires": []
+        },
+        "Frost Aura 227": {
+            "cost": 4,
+            "attributes": {
+                "life_steal": -1,
+                "mobility": 1,
+                "fire_damage": 2
+            },
+            "requires": [
+                "Spirit Aura 84"
+            ]
+        },
+        "Spirit Focus 228": {
+            "cost": 3,
+            "attributes": {
+                "attack_speed": 9,
+                "poison_damage": 4,
+                "mobility": 9
+            },
+            "requires": [
+                "Arcane Burst 18"
+            ]
+        },
+        "Venom Mastery 229": {
+            "cost": 2,
+            "attributes": {
+                "fire_damage": 7
+            },
+            "requires": [
+                "Arcane Barrier 188"
+            ]
+        },
+        "Arcane Burst 230": {
+            "cost": 1,
+            "attributes": {
+                "evasion": 5,
+                "ice_damage": 12
+            },
+            "requires": [
+                "Arcane Barrier 126"
+            ]
+        },
+        "Venom Shield 231": {
+            "cost": 4,
+            "attributes": {
+                "mana": 10
+            },
+            "requires": [
+                "Arcane Dance 178"
+            ]
+        },
+        "Shadow Burst 232": {
+            "cost": 2,
+            "attributes": {
+                "armor": 11
+            },
+            "requires": [
+                "Arcane Mastery 207"
+            ]
+        },
+        "Frost Burst 233": {
+            "cost": 5,
+            "attributes": {
+                "mana": 8,
+                "critical_chance": 4,
+                "cooldown_reduction": 9
+            },
+            "requires": [
+                "Spirit Dance 172"
+            ]
+        },
+        "Flame Rush 234": {
+            "cost": 4,
+            "attributes": {
+                "mobility": 8
+            },
+            "requires": [
+                "Arcane Nova 183"
+            ]
+        },
+        "Venom Burst 235": {
+            "cost": 5,
+            "attributes": {
+                "armor": 2,
+                "mobility": 7
+            },
+            "requires": [
+                "Iron Dance 6"
+            ]
+        },
+        "Spirit Aura 236": {
+            "cost": 6,
+            "attributes": {
+                "poison_damage": 6,
+                "survivability": 5,
+                "life_steal": 12
+            },
+            "requires": [
+                "Flame Dance 171"
+            ]
+        },
+        "Arcane Shield 237": {
+            "cost": 1,
+            "attributes": {
+                "ice_damage": 7
+            },
+            "requires": [
+                "Frost Burst 201"
+            ]
+        },
+        "Spirit Strike 238": {
+            "cost": 3,
+            "attributes": {
+                "life_steal": -2,
+                "fire_damage": 5,
+                "cooldown_reduction": 7
+            },
+            "requires": [
+                "Arcane Nova 203"
+            ]
+        },
+        "Frost Strike 239": {
+            "cost": 3,
+            "attributes": {
+                "armor": 12,
+                "survivability": -1
+            },
+            "requires": [
+                "Arcane Shield 194"
+            ]
+        },
+        "Shadow Aura 240": {
+            "cost": 6,
+            "attributes": {
+                "mana": 9,
+                "fire_damage": 6
+            },
+            "requires": [
+                "Spirit Rush 29"
+            ]
+        },
+        "Frost Shield 241": {
+            "cost": 5,
+            "attributes": {
+                "fire_damage": 3
+            },
+            "requires": [
+                "Shadow Rush 158"
+            ]
+        },
+        "Storm Dance 242": {
+            "cost": 6,
+            "attributes": {
+                "armor": 8,
+                "critical_chance": 8,
+                "mana": 6
+            },
+            "requires": [
+                "Shadow Strike 73"
+            ]
+        },
+        "Spirit Shield 243": {
+            "cost": 5,
+            "attributes": {
+                "poison_damage": -1,
+                "evasion": -3,
+                "attack_speed": 11
+            },
+            "requires": [
+                "Blade Barrier 55"
+            ]
+        },
+        "Spirit Rush 244": {
+            "cost": 3,
+            "attributes": {
+                "evasion": 2,
+                "life_steal": 12
+            },
+            "requires": [
+                "Iron Aura 49"
+            ]
+        },
+        "Storm Dance 245": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 5
+            },
+            "requires": [
+                "Venom Burst 155"
+            ]
+        },
+        "Iron Shield 246": {
+            "cost": 6,
+            "attributes": {
+                "evasion": 12,
+                "mana": -3
+            },
+            "requires": [
+                "Blade Focus 105"
+            ]
+        },
+        "Blade Strike 247": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": -3,
+                "life_steal": 6
+            },
+            "requires": [
+                "Iron Rush 217"
+            ]
+        },
+        "Blade Burst 248": {
+            "cost": 3,
+            "attributes": {
+                "critical_chance": 12
+            },
+            "requires": [
+                "Arcane Shield 15"
+            ]
+        },
+        "Arcane Dance 249": {
+            "cost": 3,
+            "attributes": {
+                "life_steal": 12,
+                "cooldown_reduction": 12
+            },
+            "requires": [
+                "Frost Barrier 37"
+            ]
+        },
+        "Blade Strike 250": {
+            "cost": 2,
+            "attributes": {
+                "mobility": 9,
+                "poison_damage": 8,
+                "attack_speed": 4
+            },
+            "requires": [
+                "Spirit Focus 135"
+            ]
+        },
+        "Blade Shield 251": {
+            "cost": 5,
+            "attributes": {
+                "mana": 5,
+                "life_steal": 8
+            },
+            "requires": [
+                "Iron Dance 182"
+            ]
+        },
+        "Frost Dance 252": {
+            "cost": 4,
+            "attributes": {
+                "poison_damage": -3,
+                "attack_speed": 1
+            },
+            "requires": [
+                "Shadow Focus 136"
+            ]
+        },
+        "Storm Mastery 253": {
+            "cost": 4,
+            "attributes": {
+                "evasion": 5
+            },
+            "requires": [
+                "Flame Rush 125"
+            ]
+        },
+        "Flame Shield 254": {
+            "cost": 5,
+            "attributes": {
+                "cooldown_reduction": 1,
+                "armor": 11
+            },
+            "requires": [
+                "Storm Dance 245"
+            ]
+        },
+        "Storm Dance 255": {
+            "cost": 3,
+            "attributes": {
+                "fire_damage": 2,
+                "life_steal": -3
+            },
+            "requires": [
+                "Venom Barrier 185"
+            ]
+        },
+        "Frost Mastery 256": {
+            "cost": 1,
+            "attributes": {
+                "damage": 9,
+                "ice_damage": 10,
+                "evasion": 7
+            },
+            "requires": [
+                "Flame Barrier 159"
+            ]
+        },
+        "Venom Burst 257": {
+            "cost": 5,
+            "attributes": {
+                "ice_damage": -2,
+                "poison_damage": 11
+            },
+            "requires": [
+                "Blade Dance 168"
+            ]
+        },
+        "Frost Focus 258": {
+            "cost": 4,
+            "attributes": {
+                "mana": 2,
+                "evasion": 6
+            },
+            "requires": [
+                "Venom Aura 70"
+            ]
+        },
+        "Iron Focus 259": {
+            "cost": 3,
+            "attributes": {
+                "mobility": 6,
+                "damage": 10
+            },
+            "requires": [
+                "Flame Burst 224"
+            ]
+        },
+        "Blade Aura 260": {
+            "cost": 5,
+            "attributes": {
+                "fire_damage": 9,
+                "poison_damage": -1,
+                "cooldown_reduction": 9
+            },
+            "requires": [
+                "Flame Burst 224"
+            ]
+        },
+        "Venom Shield 261": {
+            "cost": 2,
+            "attributes": {
+                "mana": 8
+            },
+            "requires": [
+                "Arcane Barrier 98"
+            ]
+        },
+        "Spirit Aura 262": {
+            "cost": 1,
+            "attributes": {
+                "mana": 2
+            },
+            "requires": [
+                "Spirit Burst 226"
+            ]
+        },
+        "Arcane Rush 263": {
+            "cost": 3,
+            "attributes": {
+                "damage": 8,
+                "ice_damage": 7
+            },
+            "requires": [
+                "Arcane Barrier 108"
+            ]
+        },
+        "Shadow Rush 264": {
+            "cost": 5,
+            "attributes": {
+                "critical_chance": 7,
+                "fire_damage": 6
+            },
+            "requires": [
+                "Arcane Shield 237"
+            ]
+        },
+        "Blade Shield 265": {
+            "cost": 2,
+            "attributes": {
+                "ice_damage": 5,
+                "mobility": 1
+            },
+            "requires": [
+                "Flame Shield 212"
+            ]
+        },
+        "Storm Strike 266": {
+            "cost": 3,
+            "attributes": {
+                "armor": 6
+            },
+            "requires": []
+        },
+        "Shadow Aura 267": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 1
+            },
+            "requires": [
+                "Frost Mastery 211"
+            ]
+        },
+        "Blade Aura 268": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 10
+            },
+            "requires": [
+                "Frost Rush 97"
+            ]
+        },
+        "Blood Strike 269": {
+            "cost": 5,
+            "attributes": {
+                "mana": 3,
+                "evasion": -2
+            },
+            "requires": [
+                "Frost Shield 59"
+            ]
+        },
+        "Blade Focus 270": {
+            "cost": 2,
+            "attributes": {
+                "critical_chance": -1
+            },
+            "requires": []
+        },
+        "Storm Mastery 271": {
+            "cost": 4,
+            "attributes": {
+                "life_steal": 6,
+                "fire_damage": -2
+            },
+            "requires": [
+                "Iron Burst 127"
+            ]
+        },
+        "Frost Strike 272": {
+            "cost": 5,
+            "attributes": {
+                "survivability": 4
+            },
+            "requires": [
+                "Venom Barrier 199"
+            ]
+        },
+        "Flame Nova 273": {
+            "cost": 4,
+            "attributes": {
+                "fire_damage": 6,
+                "cooldown_reduction": 1,
+                "survivability": 3
+            },
+            "requires": [
+                "Iron Rush 217"
+            ]
+        },
+        "Shadow Strike 274": {
+            "cost": 1,
+            "attributes": {
+                "critical_chance": 6,
+                "evasion": 3
+            },
+            "requires": [
+                "Storm Mastery 161"
+            ]
+        },
+        "Iron Nova 275": {
+            "cost": 2,
+            "attributes": {
+                "survivability": 1,
+                "evasion": 7,
+                "ice_damage": 2
+            },
+            "requires": [
+                "Storm Focus 148"
+            ]
+        },
+        "Venom Strike 276": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 5
+            },
+            "requires": [
+                "Venom Shield 67"
+            ]
+        },
+        "Frost Mastery 277": {
+            "cost": 1,
+            "attributes": {
+                "attack_speed": 2
+            },
+            "requires": [
+                "Iron Mastery 214"
+            ]
+        },
+        "Blade Focus 278": {
+            "cost": 5,
+            "attributes": {
+                "evasion": 1
+            },
+            "requires": [
+                "Iron Burst 45"
+            ]
+        },
+        "Flame Shield 279": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 8
+            },
+            "requires": [
+                "Venom Strike 276"
+            ]
+        },
+        "Flame Rush 280": {
+            "cost": 2,
+            "attributes": {
+                "critical_chance": 9,
+                "attack_speed": 7
+            },
+            "requires": [
+                "Storm Focus 176"
+            ]
+        },
+        "Spirit Shield 281": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 1,
+                "ice_damage": 1,
+                "mana": 9
+            },
+            "requires": [
+                "Iron Shield 187"
+            ]
+        },
+        "Storm Focus 282": {
+            "cost": 3,
+            "attributes": {
+                "ice_damage": 5,
+                "fire_damage": 7,
+                "mobility": 9
+            },
+            "requires": [
+                "Arcane Dance 40"
+            ]
+        },
+        "Shadow Shield 283": {
+            "cost": 6,
+            "attributes": {
+                "mana": 12,
+                "life_steal": -2,
+                "evasion": 7
+            },
+            "requires": []
+        },
+        "Storm Focus 284": {
+            "cost": 6,
+            "attributes": {
+                "mobility": 10,
+                "fire_damage": 2
+            },
+            "requires": [
+                "Venom Shield 261"
+            ]
+        },
+        "Flame Mastery 285": {
+            "cost": 4,
+            "attributes": {
+                "survivability": 8
+            },
+            "requires": [
+                "Spirit Shield 173"
+            ]
+        },
+        "Blade Mastery 286": {
+            "cost": 6,
+            "attributes": {
+                "survivability": -3,
+                "evasion": 4
+            },
+            "requires": [
+                "Venom Shield 152"
+            ]
+        },
+        "Frost Burst 287": {
+            "cost": 5,
+            "attributes": {
+                "damage": 7
+            },
+            "requires": [
+                "Arcane Barrier 32"
+            ]
+        },
+        "Frost Mastery 288": {
+            "cost": 2,
+            "attributes": {
+                "damage": 11,
+                "critical_chance": 11
+            },
+            "requires": [
+                "Spirit Shield 281"
+            ]
+        },
+        "Blood Barrier 289": {
+            "cost": 2,
+            "attributes": {
+                "attack_speed": 7
+            },
+            "requires": [
+                "Flame Focus 156"
+            ]
+        },
+        "Blood Aura 290": {
+            "cost": 6,
+            "attributes": {
+                "mobility": 3,
+                "ice_damage": 10
+            },
+            "requires": [
+                "Spirit Dance 58"
+            ]
+        },
+        "Flame Mastery 291": {
+            "cost": 4,
+            "attributes": {
+                "survivability": 4
+            },
+            "requires": [
+                "Frost Dance 89"
+            ]
+        },
+        "Frost Barrier 292": {
+            "cost": 1,
+            "attributes": {
+                "critical_chance": 7,
+                "mana": 9,
+                "survivability": 8
+            },
+            "requires": []
+        },
+        "Storm Nova 293": {
+            "cost": 4,
+            "attributes": {
+                "life_steal": 9,
+                "survivability": 3
+            },
+            "requires": [
+                "Blade Burst 96"
+            ]
+        },
+        "Blade Burst 294": {
+            "cost": 6,
+            "attributes": {
+                "ice_damage": -3
+            },
+            "requires": []
+        },
+        "Storm Nova 295": {
+            "cost": 1,
+            "attributes": {
+                "mana": 5,
+                "survivability": 11,
+                "cooldown_reduction": 11
+            },
+            "requires": [
+                "Spirit Shield 144"
+            ]
+        },
+        "Spirit Rush 296": {
+            "cost": 3,
+            "attributes": {
+                "cooldown_reduction": 1,
+                "survivability": 6
+            },
+            "requires": [
+                "Blade Shield 251"
+            ]
+        },
+        "Blade Aura 297": {
+            "cost": 4,
+            "attributes": {
+                "attack_speed": 12,
+                "armor": -1
+            },
+            "requires": [
+                "Shadow Rush 264"
+            ]
+        },
+        "Shadow Aura 298": {
+            "cost": 4,
+            "attributes": {
+                "survivability": -2
+            },
+            "requires": [
+                "Venom Rush 223"
+            ]
+        },
+        "Frost Rush 299": {
+            "cost": 6,
+            "attributes": {
+                "damage": 12
+            },
+            "requires": [
+                "Blade Strike 133"
+            ]
+        }
+    },
+    "synergies": [
+        {
+            "skills": [
+                "Blade Mastery 210",
+                "Arcane Burst 230",
+                "Spirit Barrier 63",
+                "Blood Strike 65"
+            ],
+            "bonus": {
+                "critical_chance": 14,
+                "armor": 20
+            }
+        },
+        {
+            "skills": [
+                "Shadow Rush 264",
+                "Blood Strike 24",
+                "Spirit Shield 281"
+            ],
+            "bonus": {
+                "evasion": 6
+            }
+        },
+        {
+            "skills": [
+                "Blood Strike 269",
+                "Flame Shield 12"
+            ],
+            "bonus": {
+                "armor": 9
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 271",
+                "Arcane Barrier 179",
+                "Blade Aura 151"
+            ],
+            "bonus": {
+                "critical_chance": 5
+            }
+        },
+        {
+            "skills": [
+                "Arcane Burst 35",
+                "Blade Mastery 210",
+                "Arcane Dance 40",
+                "Blood Strike 4"
+            ],
+            "bonus": {
+                "armor": 18
+            }
+        },
+        {
+            "skills": [
+                "Iron Shield 167",
+                "Spirit Focus 228",
+                "Spirit Dance 58"
+            ],
+            "bonus": {
+                "mobility": 16
+            }
+        },
+        {
+            "skills": [
+                "Arcane Shield 15",
+                "Blade Strike 175",
+                "Spirit Mastery 2",
+                "Iron Shield 167"
+            ],
+            "bonus": {
+                "cooldown_reduction": 8,
+                "critical_chance": 18
+            }
+        },
+        {
+            "skills": [
+                "Venom Burst 257",
+                "Arcane Burst 35"
+            ],
+            "bonus": {
+                "critical_chance": 10,
+                "damage": 11
+            }
+        },
+        {
+            "skills": [
+                "Arcane Strike 146",
+                "Flame Focus 156"
+            ],
+            "bonus": {
+                "ice_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Arcane Shield 15",
+                "Iron Barrier 206"
+            ],
+            "bonus": {
+                "life_steal": 7,
+                "survivability": 16
+            }
+        },
+        {
+            "skills": [
+                "Iron Burst 169",
+                "Iron Burst 33",
+                "Flame Rush 41"
+            ],
+            "bonus": {
+                "life_steal": 13
+            }
+        },
+        {
+            "skills": [
+                "Spirit Burst 196",
+                "Storm Nova 293"
+            ],
+            "bonus": {
+                "fire_damage": 10
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 51",
+                "Spirit Shield 173",
+                "Venom Burst 128"
+            ],
+            "bonus": {
+                "cooldown_reduction": 3
+            }
+        },
+        {
+            "skills": [
+                "Venom Rush 34",
+                "Blade Focus 270",
+                "Iron Shield 189"
+            ],
+            "bonus": {
+                "armor": 16,
+                "ice_damage": 20
+            }
+        },
+        {
+            "skills": [
+                "Arcane Barrier 108",
+                "Arcane Barrier 126"
+            ],
+            "bonus": {
+                "mana": 11,
+                "ice_damage": 18
+            }
+        },
+        {
+            "skills": [
+                "Spirit Focus 135",
+                "Venom Dance 141",
+                "Flame Rush 280"
+            ],
+            "bonus": {
+                "fire_damage": 17,
+                "critical_chance": 18
+            }
+        },
+        {
+            "skills": [
+                "Frost Barrier 292",
+                "Storm Mastery 114"
+            ],
+            "bonus": {
+                "life_steal": 18
+            }
+        },
+        {
+            "skills": [
+                "Arcane Shield 15",
+                "Iron Focus 28",
+                "Blood Strike 74"
+            ],
+            "bonus": {
+                "cooldown_reduction": 18,
+                "survivability": 11
+            }
+        },
+        {
+            "skills": [
+                "Storm Strike 50",
+                "Frost Shield 59",
+                "Arcane Barrier 32"
+            ],
+            "bonus": {
+                "mobility": 19,
+                "damage": 19
+            }
+        },
+        {
+            "skills": [
+                "Iron Shield 246",
+                "Blood Mastery 102",
+                "Shadow Focus 7",
+                "Frost Focus 23"
+            ],
+            "bonus": {
+                "mobility": 10
+            }
+        },
+        {
+            "skills": [
+                "Arcane Barrier 69",
+                "Storm Shield 112",
+                "Blade Strike 20",
+                "Venom Nova 191"
+            ],
+            "bonus": {
+                "damage": 8
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 259",
+                "Shadow Aura 298",
+                "Flame Dance 171"
+            ],
+            "bonus": {
+                "attack_speed": 20
+            }
+        },
+        {
+            "skills": [
+                "Iron Nova 107",
+                "Venom Rush 34",
+                "Flame Burst 224"
+            ],
+            "bonus": {
+                "survivability": 13
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 243",
+                "Venom Shield 231",
+                "Shadow Focus 7",
+                "Flame Rush 280"
+            ],
+            "bonus": {
+                "mobility": 18,
+                "life_steal": 20
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 195",
+                "Iron Nova 107",
+                "Venom Aura 70"
+            ],
+            "bonus": {
+                "ice_damage": 14,
+                "survivability": 17
+            }
+        },
+        {
+            "skills": [
+                "Iron Burst 169",
+                "Storm Nova 192",
+                "Frost Burst 52"
+            ],
+            "bonus": {
+                "fire_damage": 6,
+                "life_steal": 10
+            }
+        },
+        {
+            "skills": [
+                "Frost Strike 272",
+                "Venom Strike 276",
+                "Shadow Shield 283"
+            ],
+            "bonus": {
+                "ice_damage": 4
+            }
+        },
+        {
+            "skills": [
+                "Arcane Rush 154",
+                "Arcane Nova 186",
+                "Iron Burst 17"
+            ],
+            "bonus": {
+                "survivability": 14
+            }
+        },
+        {
+            "skills": [
+                "Blade Strike 250",
+                "Venom Barrier 199",
+                "Shadow Rush 19"
+            ],
+            "bonus": {
+                "life_steal": 14
+            }
+        },
+        {
+            "skills": [
+                "Arcane Strike 130",
+                "Spirit Shield 173"
+            ],
+            "bonus": {
+                "mana": 18
+            }
+        },
+        {
+            "skills": [
+                "Spirit Focus 135",
+                "Arcane Dance 178"
+            ],
+            "bonus": {
+                "poison_damage": 20,
+                "fire_damage": 18
+            }
+        },
+        {
+            "skills": [
+                "Iron Rush 27",
+                "Arcane Dance 110",
+                "Shadow Aura 240",
+                "Storm Dance 242"
+            ],
+            "bonus": {
+                "damage": 19,
+                "ice_damage": 11
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 288",
+                "Venom Burst 257"
+            ],
+            "bonus": {
+                "attack_speed": 12,
+                "poison_damage": 20
+            }
+        },
+        {
+            "skills": [
+                "Flame Nova 101",
+                "Spirit Shield 144",
+                "Blade Burst 248",
+                "Blade Strike 247"
+            ],
+            "bonus": {
+                "attack_speed": 19,
+                "critical_chance": 5
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 287",
+                "Spirit Nova 3",
+                "Spirit Aura 236"
+            ],
+            "bonus": {
+                "mobility": 8,
+                "fire_damage": 3
+            }
+        },
+        {
+            "skills": [
+                "Flame Burst 224",
+                "Flame Rush 38"
+            ],
+            "bonus": {
+                "mobility": 10,
+                "fire_damage": 8
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 233",
+                "Iron Focus 76",
+                "Blood Mastery 102"
+            ],
+            "bonus": {
+                "life_steal": 6,
+                "critical_chance": 17
+            }
+        },
+        {
+            "skills": [
+                "Arcane Burst 230",
+                "Frost Barrier 160",
+                "Flame Burst 116",
+                "Iron Burst 169"
+            ],
+            "bonus": {
+                "survivability": 7
+            }
+        },
+        {
+            "skills": [
+                "Blood Mastery 193",
+                "Flame Shield 80",
+                "Iron Shield 246",
+                "Venom Barrier 216"
+            ],
+            "bonus": {
+                "life_steal": 7,
+                "fire_damage": 3
+            }
+        },
+        {
+            "skills": [
+                "Blade Nova 166",
+                "Arcane Nova 183"
+            ],
+            "bonus": {
+                "life_steal": 4,
+                "evasion": 13
+            }
+        },
+        {
+            "skills": [
+                "Venom Shield 231",
+                "Blade Shield 265",
+                "Flame Rush 38"
+            ],
+            "bonus": {
+                "ice_damage": 9,
+                "evasion": 8
+            }
+        },
+        {
+            "skills": [
+                "Flame Mastery 291",
+                "Blade Mastery 210",
+                "Blade Aura 151"
+            ],
+            "bonus": {
+                "ice_damage": 18,
+                "life_steal": 13
+            }
+        },
+        {
+            "skills": [
+                "Shadow Burst 177",
+                "Frost Strike 239"
+            ],
+            "bonus": {
+                "mobility": 4,
+                "evasion": 18
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 13",
+                "Venom Barrier 199"
+            ],
+            "bonus": {
+                "damage": 8
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 5",
+                "Spirit Aura 236",
+                "Shadow Rush 158",
+                "Venom Barrier 213"
+            ],
+            "bonus": {
+                "attack_speed": 20
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 260",
+                "Frost Focus 258",
+                "Storm Nova 293"
+            ],
+            "bonus": {
+                "mana": 5,
+                "poison_damage": 14
+            }
+        },
+        {
+            "skills": [
+                "Blade Burst 140",
+                "Spirit Dance 172",
+                "Iron Burst 1"
+            ],
+            "bonus": {
+                "fire_damage": 8
+            }
+        },
+        {
+            "skills": [
+                "Shadow Barrier 56",
+                "Arcane Strike 88",
+                "Blade Focus 105"
+            ],
+            "bonus": {
+                "armor": 7,
+                "poison_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Arcane Shield 237",
+                "Iron Rush 222"
+            ],
+            "bonus": {
+                "cooldown_reduction": 14
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 68",
+                "Flame Mastery 209",
+                "Shadow Rush 264",
+                "Blade Dance 143"
+            ],
+            "bonus": {
+                "evasion": 14
+            }
+        },
+        {
+            "skills": [
+                "Spirit Strike 238",
+                "Iron Dance 182",
+                "Storm Mastery 114"
+            ],
+            "bonus": {
+                "mobility": 8,
+                "mana": 19
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 114",
+                "Frost Shield 59",
+                "Spirit Mastery 36",
+                "Iron Burst 45"
+            ],
+            "bonus": {
+                "attack_speed": 14,
+                "ice_damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Shadow Burst 232",
+                "Storm Focus 13"
+            ],
+            "bonus": {
+                "ice_damage": 17,
+                "attack_speed": 15
+            }
+        },
+        {
+            "skills": [
+                "Spirit Aura 184",
+                "Storm Barrier 42",
+                "Storm Focus 148",
+                "Iron Rush 222"
+            ],
+            "bonus": {
+                "cooldown_reduction": 5
+            }
+        },
+        {
+            "skills": [
+                "Storm Dance 245",
+                "Blood Strike 109",
+                "Blade Burst 96",
+                "Venom Rush 34"
+            ],
+            "bonus": {
+                "mana": 6
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 259",
+                "Shadow Rush 158",
+                "Frost Aura 164",
+                "Flame Strike 83"
+            ],
+            "bonus": {
+                "damage": 19
+            }
+        },
+        {
+            "skills": [
+                "Arcane Nova 71",
+                "Storm Mastery 161",
+                "Frost Mastery 288",
+                "Frost Strike 25"
+            ],
+            "bonus": {
+                "armor": 13
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 123",
+                "Spirit Dance 58",
+                "Shadow Rush 158"
+            ],
+            "bonus": {
+                "fire_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Iron Aura 197",
+                "Flame Mastery 209",
+                "Blade Dance 168"
+            ],
+            "bonus": {
+                "cooldown_reduction": 9
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 100",
+                "Iron Burst 17",
+                "Frost Burst 201"
+            ],
+            "bonus": {
+                "attack_speed": 8,
+                "armor": 16
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 161",
+                "Storm Barrier 42"
+            ],
+            "bonus": {
+                "mana": 4
+            }
+        },
+        {
+            "skills": [
+                "Spirit Barrier 198",
+                "Flame Burst 224",
+                "Iron Focus 28",
+                "Blood Focus 115"
+            ],
+            "bonus": {
+                "cooldown_reduction": 10
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 151",
+                "Shadow Rush 264",
+                "Frost Rush 132"
+            ],
+            "bonus": {
+                "damage": 19
+            }
+        },
+        {
+            "skills": [
+                "Venom Strike 46",
+                "Spirit Aura 84",
+                "Storm Shield 205"
+            ],
+            "bonus": {
+                "fire_damage": 15
+            }
+        },
+        {
+            "skills": [
+                "Iron Shield 167",
+                "Blade Aura 260",
+                "Blade Burst 248"
+            ],
+            "bonus": {
+                "life_steal": 11
+            }
+        },
+        {
+            "skills": [
+                "Flame Strike 83",
+                "Shadow Aura 298"
+            ],
+            "bonus": {
+                "life_steal": 4
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 195",
+                "Shadow Aura 267",
+                "Frost Burst 52"
+            ],
+            "bonus": {
+                "evasion": 8,
+                "damage": 6
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 288",
+                "Storm Nova 293"
+            ],
+            "bonus": {
+                "ice_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Venom Shield 67",
+                "Spirit Aura 184"
+            ],
+            "bonus": {
+                "critical_chance": 12
+            }
+        },
+        {
+            "skills": [
+                "Arcane Nova 203",
+                "Iron Focus 259",
+                "Storm Mastery 204"
+            ],
+            "bonus": {
+                "evasion": 3
+            }
+        },
+        {
+            "skills": [
+                "Blade Barrier 55",
+                "Shadow Aura 298",
+                "Blade Focus 117",
+                "Venom Strike 276"
+            ],
+            "bonus": {
+                "damage": 10
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 287",
+                "Frost Shield 219",
+                "Flame Shield 123"
+            ],
+            "bonus": {
+                "damage": 3
+            }
+        },
+        {
+            "skills": [
+                "Spirit Aura 84",
+                "Blade Aura 151",
+                "Iron Nova 107",
+                "Frost Burst 201"
+            ],
+            "bonus": {
+                "mana": 5
+            }
+        },
+        {
+            "skills": [
+                "Blade Burst 43",
+                "Storm Dance 255"
+            ],
+            "bonus": {
+                "critical_chance": 5
+            }
+        },
+        {
+            "skills": [
+                "Venom Strike 122",
+                "Spirit Barrier 64",
+                "Blade Strike 133",
+                "Shadow Mastery 121"
+            ],
+            "bonus": {
+                "mana": 16
+            }
+        },
+        {
+            "skills": [
+                "Blood Rush 62",
+                "Blood Focus 120",
+                "Venom Nova 220"
+            ],
+            "bonus": {
+                "evasion": 13,
+                "survivability": 10
+            }
+        },
+        {
+            "skills": [
+                "Iron Dance 6",
+                "Blood Mastery 193",
+                "Storm Burst 0"
+            ],
+            "bonus": {
+                "attack_speed": 9,
+                "cooldown_reduction": 19
+            }
+        },
+        {
+            "skills": [
+                "Storm Dance 245",
+                "Frost Rush 97"
+            ],
+            "bonus": {
+                "mobility": 10
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 243",
+                "Iron Focus 259",
+                "Iron Mastery 214",
+                "Blade Dance 168"
+            ],
+            "bonus": {
+                "armor": 12,
+                "ice_damage": 7
+            }
+        },
+        {
+            "skills": [
+                "Shadow Burst 131",
+                "Frost Mastery 256",
+                "Flame Shield 80",
+                "Venom Strike 122"
+            ],
+            "bonus": {
+                "attack_speed": 13
+            }
+        },
+        {
+            "skills": [
+                "Blood Mastery 102",
+                "Shadow Aura 267"
+            ],
+            "bonus": {
+                "armor": 10
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 137",
+                "Storm Focus 13",
+                "Flame Dance 171",
+                "Venom Burst 155"
+            ],
+            "bonus": {
+                "damage": 15,
+                "poison_damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Venom Strike 46",
+                "Arcane Nova 71",
+                "Iron Focus 76"
+            ],
+            "bonus": {
+                "mana": 18
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 233",
+                "Frost Burst 201",
+                "Iron Shield 246",
+                "Arcane Mastery 207"
+            ],
+            "bonus": {
+                "mana": 8,
+                "armor": 5
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 243",
+                "Blood Shield 150"
+            ],
+            "bonus": {
+                "survivability": 11
+            }
+        },
+        {
+            "skills": [
+                "Frost Rush 92",
+                "Arcane Burst 18",
+                "Flame Shield 212"
+            ],
+            "bonus": {
+                "armor": 12
+            }
+        },
+        {
+            "skills": [
+                "Storm Shield 129",
+                "Blade Burst 96"
+            ],
+            "bonus": {
+                "fire_damage": 12,
+                "armor": 19
+            }
+        },
+        {
+            "skills": [
+                "Arcane Burst 18",
+                "Blade Aura 134",
+                "Spirit Shield 39",
+                "Spirit Dance 172"
+            ],
+            "bonus": {
+                "damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Shadow Aura 267",
+                "Venom Burst 235"
+            ],
+            "bonus": {
+                "mobility": 17
+            }
+        },
+        {
+            "skills": [
+                "Blade Strike 20",
+                "Storm Mastery 271"
+            ],
+            "bonus": {
+                "attack_speed": 3,
+                "mana": 15
+            }
+        },
+        {
+            "skills": [
+                "Arcane Nova 203",
+                "Blade Strike 250"
+            ],
+            "bonus": {
+                "fire_damage": 12,
+                "damage": 11
+            }
+        },
+        {
+            "skills": [
+                "Flame Mastery 209",
+                "Arcane Nova 183",
+                "Flame Shield 147",
+                "Flame Nova 273"
+            ],
+            "bonus": {
+                "cooldown_reduction": 3
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 39",
+                "Spirit Shield 106",
+                "Frost Barrier 82",
+                "Arcane Burst 18"
+            ],
+            "bonus": {
+                "cooldown_reduction": 9,
+                "critical_chance": 7
+            }
+        },
+        {
+            "skills": [
+                "Arcane Dance 178",
+                "Arcane Strike 146",
+                "Spirit Shield 173"
+            ],
+            "bonus": {
+                "poison_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Blade Dance 143",
+                "Flame Rush 280",
+                "Arcane Barrier 108"
+            ],
+            "bonus": {
+                "life_steal": 15,
+                "ice_damage": 17
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 176",
+                "Iron Shield 167"
+            ],
+            "bonus": {
+                "armor": 3
+            }
+        },
+        {
+            "skills": [
+                "Shadow Rush 26",
+                "Blood Aura 11"
+            ],
+            "bonus": {
+                "cooldown_reduction": 13,
+                "attack_speed": 3
+            }
+        },
+        {
+            "skills": [
+                "Shadow Rush 19",
+                "Frost Dance 252",
+                "Flame Rush 280",
+                "Flame Shield 12"
+            ],
+            "bonus": {
+                "fire_damage": 9,
+                "survivability": 3
+            }
+        },
+        {
+            "skills": [
+                "Iron Burst 208",
+                "Iron Nova 107",
+                "Iron Burst 17",
+                "Arcane Shield 194"
+            ],
+            "bonus": {
+                "mana": 4,
+                "life_steal": 14
+            }
+        },
+        {
+            "skills": [
+                "Iron Shield 79",
+                "Blood Barrier 118",
+                "Blood Barrier 289",
+                "Blade Shield 265"
+            ],
+            "bonus": {
+                "mobility": 8
+            }
+        },
+        {
+            "skills": [
+                "Frost Shield 241",
+                "Flame Strike 44",
+                "Spirit Dance 58",
+                "Arcane Nova 71"
+            ],
+            "bonus": {
+                "life_steal": 4
+            }
+        },
+        {
+            "skills": [
+                "Flame Burst 181",
+                "Spirit Mastery 36"
+            ],
+            "bonus": {
+                "attack_speed": 17
+            }
+        },
+        {
+            "skills": [
+                "Spirit Aura 236",
+                "Spirit Barrier 198"
+            ],
+            "bonus": {
+                "cooldown_reduction": 12,
+                "mana": 14
+            }
+        },
+        {
+            "skills": [
+                "Blood Focus 120",
+                "Storm Dance 245"
+            ],
+            "bonus": {
+                "survivability": 6,
+                "damage": 18
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 279",
+                "Storm Strike 50",
+                "Storm Focus 282",
+                "Frost Mastery 288"
+            ],
+            "bonus": {
+                "survivability": 14,
+                "poison_damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Blade Burst 43",
+                "Venom Dance 77"
+            ],
+            "bonus": {
+                "armor": 20
+            }
+        },
+        {
+            "skills": [
+                "Iron Nova 107",
+                "Frost Barrier 10",
+                "Storm Focus 5"
+            ],
+            "bonus": {
+                "ice_damage": 16
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 134",
+                "Blade Nova 166"
+            ],
+            "bonus": {
+                "ice_damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 99",
+                "Storm Strike 145",
+                "Flame Rush 125"
+            ],
+            "bonus": {
+                "fire_damage": 10,
+                "attack_speed": 9
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 114",
+                "Frost Rush 299"
+            ],
+            "bonus": {
+                "fire_damage": 10,
+                "cooldown_reduction": 8
+            }
+        },
+        {
+            "skills": [
+                "Blade Dance 9",
+                "Iron Burst 1",
+                "Shadow Burst 149",
+                "Iron Focus 137"
+            ],
+            "bonus": {
+                "damage": 10,
+                "mana": 20
+            }
+        },
+        {
+            "skills": [
+                "Frost Nova 142",
+                "Arcane Nova 203"
+            ],
+            "bonus": {
+                "cooldown_reduction": 9
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 151",
+                "Arcane Rush 154",
+                "Iron Nova 75",
+                "Storm Mastery 271"
+            ],
+            "bonus": {
+                "ice_damage": 11
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 123",
+                "Storm Barrier 202",
+                "Flame Shield 147",
+                "Blade Aura 151"
+            ],
+            "bonus": {
+                "attack_speed": 6
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 123",
+                "Blade Aura 260"
+            ],
+            "bonus": {
+                "poison_damage": 7,
+                "damage": 19
+            }
+        },
+        {
+            "skills": [
+                "Storm Nova 295",
+                "Frost Rush 132",
+                "Blade Shield 265"
+            ],
+            "bonus": {
+                "evasion": 9,
+                "armor": 14
+            }
+        },
+        {
+            "skills": [
+                "Venom Shield 231",
+                "Arcane Dance 249",
+                "Arcane Shield 170",
+                "Spirit Rush 29"
+            ],
+            "bonus": {
+                "mana": 10,
+                "ice_damage": 6
+            }
+        },
+        {
+            "skills": [
+                "Shadow Focus 136",
+                "Iron Burst 17"
+            ],
+            "bonus": {
+                "damage": 3
+            }
+        },
+        {
+            "skills": [
+                "Blade Rush 218",
+                "Flame Mastery 285",
+                "Blood Strike 74"
+            ],
+            "bonus": {
+                "armor": 18,
+                "mobility": 7
+            }
+        },
+        {
+            "skills": [
+                "Venom Burst 235",
+                "Venom Shield 152",
+                "Shadow Shield 283"
+            ],
+            "bonus": {
+                "fire_damage": 7
+            }
+        },
+        {
+            "skills": [
+                "Blood Aura 11",
+                "Frost Mastery 256"
+            ],
+            "bonus": {
+                "mobility": 10,
+                "cooldown_reduction": 12
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 28",
+                "Shadow Rush 26",
+                "Venom Strike 46",
+                "Iron Shield 187"
+            ],
+            "bonus": {
+                "ice_damage": 20,
+                "mana": 19
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 100",
+                "Flame Burst 116"
+            ],
+            "bonus": {
+                "life_steal": 6
+            }
+        },
+        {
+            "skills": [
+                "Frost Shield 219",
+                "Blood Strike 269",
+                "Frost Rush 299",
+                "Shadow Mastery 16"
+            ],
+            "bonus": {
+                "attack_speed": 4
+            }
+        },
+        {
+            "skills": [
+                "Venom Strike 122",
+                "Frost Burst 201"
+            ],
+            "bonus": {
+                "survivability": 10
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 204",
+                "Shadow Aura 240",
+                "Shadow Burst 85"
+            ],
+            "bonus": {
+                "critical_chance": 7
+            }
+        },
+        {
+            "skills": [
+                "Frost Shield 219",
+                "Shadow Focus 7",
+                "Blade Dance 143",
+                "Venom Burst 128"
+            ],
+            "bonus": {
+                "ice_damage": 15,
+                "critical_chance": 8
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 137",
+                "Frost Mastery 100",
+                "Frost Strike 215",
+                "Spirit Burst 226"
+            ],
+            "bonus": {
+                "damage": 10,
+                "mana": 12
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 39",
+                "Blood Aura 11",
+                "Blood Focus 120"
+            ],
+            "bonus": {
+                "mobility": 9,
+                "evasion": 3
+            }
+        },
+        {
+            "skills": [
+                "Frost Burst 233",
+                "Blade Burst 43",
+                "Spirit Dance 58",
+                "Flame Burst 116"
+            ],
+            "bonus": {
+                "armor": 10,
+                "poison_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Frost Shield 241",
+                "Shadow Rush 19",
+                "Flame Dance 171",
+                "Shadow Burst 61"
+            ],
+            "bonus": {
+                "poison_damage": 6
+            }
+        },
+        {
+            "skills": [
+                "Blood Shield 150",
+                "Blood Mastery 102"
+            ],
+            "bonus": {
+                "damage": 8,
+                "critical_chance": 15
+            }
+        },
+        {
+            "skills": [
+                "Blade Mastery 286",
+                "Blade Strike 247",
+                "Iron Burst 1",
+                "Frost Burst 233"
+            ],
+            "bonus": {
+                "damage": 19,
+                "cooldown_reduction": 11
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 13",
+                "Spirit Barrier 198",
+                "Venom Rush 200"
+            ],
+            "bonus": {
+                "armor": 5
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 282",
+                "Spirit Shield 91",
+                "Frost Burst 233"
+            ],
+            "bonus": {
+                "attack_speed": 18,
+                "critical_chance": 14
+            }
+        },
+        {
+            "skills": [
+                "Spirit Burst 196",
+                "Blade Rush 218",
+                "Spirit Strike 238",
+                "Spirit Dance 58"
+            ],
+            "bonus": {
+                "life_steal": 4,
+                "mana": 17
+            }
+        },
+        {
+            "skills": [
+                "Arcane Barrier 179",
+                "Arcane Dance 40",
+                "Arcane Nova 183"
+            ],
+            "bonus": {
+                "life_steal": 5
+            }
+        },
+        {
+            "skills": [
+                "Flame Aura 53",
+                "Frost Rush 92"
+            ],
+            "bonus": {
+                "evasion": 13
+            }
+        },
+        {
+            "skills": [
+                "Arcane Nova 183",
+                "Blade Focus 270",
+                "Blood Focus 120",
+                "Flame Shield 12"
+            ],
+            "bonus": {
+                "mana": 14,
+                "survivability": 13
+            }
+        },
+        {
+            "skills": [
+                "Storm Nova 295",
+                "Iron Mastery 214",
+                "Flame Rush 38"
+            ],
+            "bonus": {
+                "damage": 18,
+                "mana": 9
+            }
+        },
+        {
+            "skills": [
+                "Frost Rush 132",
+                "Venom Burst 257",
+                "Spirit Strike 238",
+                "Spirit Rush 244"
+            ],
+            "bonus": {
+                "poison_damage": 14,
+                "fire_damage": 6
+            }
+        },
+        {
+            "skills": [
+                "Frost Nova 142",
+                "Flame Rush 234",
+                "Frost Barrier 37"
+            ],
+            "bonus": {
+                "damage": 13
+            }
+        },
+        {
+            "skills": [
+                "Arcane Barrier 98",
+                "Blade Strike 250",
+                "Spirit Shield 281",
+                "Spirit Mastery 66"
+            ],
+            "bonus": {
+                "cooldown_reduction": 3
+            }
+        },
+        {
+            "skills": [
+                "Flame Focus 156",
+                "Iron Strike 94"
+            ],
+            "bonus": {
+                "poison_damage": 16
+            }
+        },
+        {
+            "skills": [
+                "Blade Nova 166",
+                "Venom Burst 257"
+            ],
+            "bonus": {
+                "life_steal": 8,
+                "poison_damage": 18
+            }
+        },
+        {
+            "skills": [
+                "Flame Mastery 291",
+                "Flame Rush 38",
+                "Venom Shield 67"
+            ],
+            "bonus": {
+                "life_steal": 13
+            }
+        },
+        {
+            "skills": [
+                "Frost Barrier 37",
+                "Blade Burst 140",
+                "Frost Aura 164"
+            ],
+            "bonus": {
+                "mana": 12
+            }
+        },
+        {
+            "skills": [
+                "Blade Strike 20",
+                "Venom Dance 77"
+            ],
+            "bonus": {
+                "ice_damage": 17
+            }
+        },
+        {
+            "skills": [
+                "Venom Burst 155",
+                "Venom Burst 128",
+                "Blade Barrier 55",
+                "Frost Mastery 256"
+            ],
+            "bonus": {
+                "fire_damage": 5,
+                "evasion": 10
+            }
+        },
+        {
+            "skills": [
+                "Frost Rush 92",
+                "Frost Mastery 277",
+                "Frost Strike 215",
+                "Arcane Rush 154"
+            ],
+            "bonus": {
+                "critical_chance": 5,
+                "ice_damage": 6
+            }
+        },
+        {
+            "skills": [
+                "Iron Rush 27",
+                "Blade Dance 168",
+                "Blade Nova 104"
+            ],
+            "bonus": {
+                "poison_damage": 4,
+                "armor": 5
+            }
+        },
+        {
+            "skills": [
+                "Spirit Mastery 14",
+                "Iron Burst 45"
+            ],
+            "bonus": {
+                "damage": 17
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 100",
+                "Iron Rush 27"
+            ],
+            "bonus": {
+                "damage": 13,
+                "mobility": 17
+            }
+        },
+        {
+            "skills": [
+                "Frost Mastery 256",
+                "Venom Shield 261",
+                "Venom Strike 122"
+            ],
+            "bonus": {
+                "critical_chance": 12,
+                "damage": 5
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 271",
+                "Blade Barrier 72",
+                "Venom Barrier 185",
+                "Frost Strike 25"
+            ],
+            "bonus": {
+                "evasion": 15,
+                "fire_damage": 3
+            }
+        },
+        {
+            "skills": [
+                "Spirit Burst 196",
+                "Shadow Strike 73"
+            ],
+            "bonus": {
+                "cooldown_reduction": 14,
+                "mana": 17
+            }
+        },
+        {
+            "skills": [
+                "Iron Shield 167",
+                "Shadow Burst 21"
+            ],
+            "bonus": {
+                "armor": 8,
+                "survivability": 7
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 173",
+                "Iron Shield 167",
+                "Iron Burst 127"
+            ],
+            "bonus": {
+                "damage": 13,
+                "survivability": 14
+            }
+        },
+        {
+            "skills": [
+                "Arcane Barrier 32",
+                "Storm Barrier 202"
+            ],
+            "bonus": {
+                "mana": 13,
+                "critical_chance": 19
+            }
+        },
+        {
+            "skills": [
+                "Flame Barrier 159",
+                "Arcane Dance 249",
+                "Frost Mastery 256"
+            ],
+            "bonus": {
+                "fire_damage": 19,
+                "attack_speed": 12
+            }
+        },
+        {
+            "skills": [
+                "Spirit Aura 236",
+                "Venom Rush 200",
+                "Blood Focus 115"
+            ],
+            "bonus": {
+                "cooldown_reduction": 7
+            }
+        },
+        {
+            "skills": [
+                "Shadow Shield 283",
+                "Flame Mastery 291",
+                "Arcane Burst 230",
+                "Venom Shield 231"
+            ],
+            "bonus": {
+                "mobility": 3,
+                "damage": 14
+            }
+        },
+        {
+            "skills": [
+                "Storm Nova 293",
+                "Spirit Rush 244",
+                "Shadow Strike 274"
+            ],
+            "bonus": {
+                "mobility": 20,
+                "attack_speed": 17
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 117",
+                "Iron Dance 6",
+                "Venom Dance 77",
+                "Blood Shield 150"
+            ],
+            "bonus": {
+                "attack_speed": 9
+            }
+        },
+        {
+            "skills": [
+                "Blade Nova 166",
+                "Arcane Nova 186",
+                "Blade Aura 260"
+            ],
+            "bonus": {
+                "attack_speed": 18
+            }
+        },
+        {
+            "skills": [
+                "Venom Barrier 185",
+                "Storm Barrier 42"
+            ],
+            "bonus": {
+                "cooldown_reduction": 14,
+                "poison_damage": 4
+            }
+        },
+        {
+            "skills": [
+                "Storm Focus 148",
+                "Frost Rush 132"
+            ],
+            "bonus": {
+                "fire_damage": 12,
+                "ice_damage": 13
+            }
+        },
+        {
+            "skills": [
+                "Venom Rush 34",
+                "Iron Shield 167"
+            ],
+            "bonus": {
+                "mana": 5
+            }
+        },
+        {
+            "skills": [
+                "Flame Nova 273",
+                "Shadow Burst 232"
+            ],
+            "bonus": {
+                "survivability": 9
+            }
+        },
+        {
+            "skills": [
+                "Iron Nova 107",
+                "Spirit Strike 238",
+                "Spirit Strike 87"
+            ],
+            "bonus": {
+                "evasion": 17
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 117",
+                "Flame Barrier 159",
+                "Venom Shield 231"
+            ],
+            "bonus": {
+                "survivability": 15,
+                "armor": 14
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 105",
+                "Shadow Burst 21"
+            ],
+            "bonus": {
+                "evasion": 16,
+                "survivability": 4
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 260",
+                "Blade Dance 9",
+                "Frost Dance 89"
+            ],
+            "bonus": {
+                "poison_damage": 20
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 144",
+                "Blade Focus 195",
+                "Blade Mastery 210"
+            ],
+            "bonus": {
+                "mana": 5
+            }
+        },
+        {
+            "skills": [
+                "Shadow Burst 21",
+                "Storm Shield 205"
+            ],
+            "bonus": {
+                "mana": 10,
+                "evasion": 7
+            }
+        },
+        {
+            "skills": [
+                "Arcane Strike 88",
+                "Frost Mastery 288",
+                "Blade Burst 43",
+                "Frost Mastery 277"
+            ],
+            "bonus": {
+                "life_steal": 10,
+                "mana": 18
+            }
+        },
+        {
+            "skills": [
+                "Arcane Strike 48",
+                "Blade Dance 143"
+            ],
+            "bonus": {
+                "fire_damage": 18,
+                "critical_chance": 4
+            }
+        },
+        {
+            "skills": [
+                "Blade Focus 278",
+                "Venom Shield 67",
+                "Flame Strike 44"
+            ],
+            "bonus": {
+                "critical_chance": 10,
+                "mana": 4
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 151",
+                "Iron Burst 33"
+            ],
+            "bonus": {
+                "attack_speed": 8,
+                "poison_damage": 10
+            }
+        },
+        {
+            "skills": [
+                "Spirit Rush 29",
+                "Venom Barrier 185",
+                "Frost Barrier 292",
+                "Venom Mastery 229"
+            ],
+            "bonus": {
+                "life_steal": 19
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 212",
+                "Arcane Dance 110"
+            ],
+            "bonus": {
+                "mana": 16,
+                "damage": 13
+            }
+        },
+        {
+            "skills": [
+                "Arcane Burst 18",
+                "Frost Strike 25",
+                "Blood Rush 62"
+            ],
+            "bonus": {
+                "cooldown_reduction": 6,
+                "fire_damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Spirit Aura 84",
+                "Blade Nova 104",
+                "Blood Strike 74",
+                "Blood Mastery 193"
+            ],
+            "bonus": {
+                "fire_damage": 6,
+                "survivability": 5
+            }
+        },
+        {
+            "skills": [
+                "Spirit Shield 281",
+                "Frost Burst 162",
+                "Shadow Rush 158"
+            ],
+            "bonus": {
+                "damage": 12
+            }
+        },
+        {
+            "skills": [
+                "Flame Rush 280",
+                "Storm Nova 293"
+            ],
+            "bonus": {
+                "survivability": 6
+            }
+        },
+        {
+            "skills": [
+                "Storm Barrier 42",
+                "Spirit Rush 296",
+                "Blade Aura 268"
+            ],
+            "bonus": {
+                "fire_damage": 4,
+                "life_steal": 18
+            }
+        },
+        {
+            "skills": [
+                "Frost Barrier 292",
+                "Iron Burst 169",
+                "Spirit Dance 58",
+                "Storm Focus 13"
+            ],
+            "bonus": {
+                "life_steal": 12,
+                "armor": 4
+            }
+        },
+        {
+            "skills": [
+                "Blade Aura 260",
+                "Storm Focus 284",
+                "Storm Nova 192"
+            ],
+            "bonus": {
+                "mana": 8
+            }
+        },
+        {
+            "skills": [
+                "Flame Shield 68",
+                "Venom Barrier 199",
+                "Spirit Mastery 66",
+                "Spirit Shield 144"
+            ],
+            "bonus": {
+                "fire_damage": 13
+            }
+        },
+        {
+            "skills": [
+                "Storm Mastery 253",
+                "Flame Dance 171",
+                "Blade Dance 168",
+                "Spirit Barrier 163"
+            ],
+            "bonus": {
+                "evasion": 14
+            }
+        },
+        {
+            "skills": [
+                "Iron Focus 28",
+                "Iron Shield 246",
+                "Blade Burst 43",
+                "Blood Strike 24"
+            ],
+            "bonus": {
+                "survivability": 11
+            }
+        },
+        {
+            "skills": [
+                "Arcane Burst 35",
+                "Venom Shield 67",
+                "Venom Dance 141",
+                "Flame Dance 95"
+            ],
+            "bonus": {
+                "life_steal": 18
+            }
+        },
+        {
+            "skills": [
+                "Blade Mastery 210",
+                "Spirit Mastery 14",
+                "Storm Mastery 253",
+                "Iron Nova 107"
+            ],
+            "bonus": {
+                "evasion": 17,
+                "critical_chance": 19
+            }
+        },
+        {
+            "skills": [
+                "Iron Burst 169",
+                "Blade Aura 151"
+            ],
+            "bonus": {
+                "evasion": 14,
+                "poison_damage": 14
+            }
+        },
+        {
+            "skills": [
+                "Venom Strike 122",
+                "Iron Rush 27",
+                "Flame Burst 224",
+                "Iron Dance 6"
+            ],
+            "bonus": {
+                "evasion": 6,
+                "mana": 4
+            }
+        },
+        {
+            "skills": [
+                "Spirit Barrier 163",
+                "Spirit Burst 196",
+                "Storm Strike 145"
+            ],
+            "bonus": {
+                "survivability": 4,
+                "life_steal": 19
+            }
+        },
+        {
+            "skills": [
+                "Flame Burst 224",
+                "Blade Mastery 86",
+                "Storm Mastery 204"
+            ],
+            "bonus": {
+                "evasion": 17,
+                "fire_damage": 20
+            }
+        },
+        {
+            "skills": [
+                "Iron Mastery 31",
+                "Storm Barrier 202",
+                "Blood Barrier 118"
+            ],
+            "bonus": {
+                "critical_chance": 5
+            }
+        },
+        {
+            "skills": [
+                "Storm Dance 255",
+                "Spirit Aura 262",
+                "Blood Strike 65",
+                "Spirit Strike 87"
+            ],
+            "bonus": {
+                "cooldown_reduction": 10,
+                "fire_damage": 19
+            }
+        },
+        {
+            "skills": [
+                "Iron Rush 27",
+                "Iron Shield 246",
+                "Venom Shield 231"
+            ],
+            "bonus": {
+                "survivability": 15,
+                "life_steal": 19
+            }
+        }
+    ]
+}

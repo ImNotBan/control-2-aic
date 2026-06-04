@@ -1,0 +1,9 @@
+{
+    "id": "Control 2",
+    "name": "Algorithms & Complexity Control 2",
+    "problems": [
+        "skill-tree-opt",
+        "dna-comp"
+    ],
+    "max_student_group_size": 1
+}
