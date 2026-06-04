@@ -65,8 +65,50 @@ def my_algorithm(instance: ProblemInstance) -> List[Dict[str, Any]]:
         }
     ]
     """
+    sequence = instance.sequence
+    n = len(sequence)
 
-    raise NotImplementedError("Implement me!")
+    dp = [float("inf")] * (n + 1)
+    previous = [None] * (n + 1)
+    dp[0] = 0
+
+    # dp[i] guarda el millor cost per comprimir fins a la posicio i.
+    for i in range(n):
+        literal_cost = dp[i] + instance.literal_cost
+        if literal_cost < dp[i + 1]:
+            dp[i + 1] = literal_cost
+            previous[i + 1] = (i, {"type": "literal", "char": sequence[i]})
+
+        for start in range(i):
+            max_length = min(i - start, n - i)
+            length = 0
+            while length < max_length and sequence[start + length] == sequence[i + length]:
+                length += 1
+
+            for copy_length in range(instance.min_match_length, length + 1):
+                cost = dp[i] + instance.copy_cost + instance.length_cost * copy_length
+                end = i + copy_length
+                if cost < dp[end]:
+                    dp[end] = cost
+                    previous[end] = (
+                        i,
+                        {
+                            "type": "copy",
+                            "offset": i - start,
+                            "length": copy_length,
+                        },
+                    )
+
+    # reconstruim les operacions des del final fins al principi.
+    operations = []
+    pos = n
+    while pos > 0:
+        prev_pos, operation = previous[pos]
+        operations.append(operation)
+        pos = prev_pos
+
+    operations.reverse()
+    return operations
 
 
 # Output
